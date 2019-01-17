@@ -1,0 +1,2168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020609C74C7CC77C538F0F10BBAA1F9A /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AE34E95C2233613B6D7F2697FA44 /* Atomic.swift */; };
+		02A342C52682E5A5F393BE5FC200FB71 /* NetSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27B83DF82C5F92CAAA5C96474B7AE1F /* NetSocket.swift */; };
+		02CB9EDB7F6D7B1B6FA0119E732F5ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		04DE845904A07A351FB400D8DB1B2A64 /* MIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59965283B5A5D080FB96BDDE652C4BF8 /* MIME.swift */; };
+		0512F7594FB96CF629549485BEE834BC /* SenbayMotionActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 5821776409585622176C2BB425AEE4F7 /* SenbayMotionActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0970E6FE9B03060DB19BB8B093E26FF1 /* SenbayScreenBrightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D33EE26341DE0586F4B5D26F025A47A /* SenbayScreenBrightness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09DCAE72CADB3D5CDAEE45447554D05C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EB68412374305171BBCCF9ECB3F91A /* Security.framework */; };
+		0D5A12C04564E3636C762ED7479357A0 /* Pods-SenbayLiveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFFF9533344096790682CA8DFF3E47B /* Pods-SenbayLiveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E845A21BB36DAD2A162DC2CAD4FF7E6 /* SenbayBLEConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = D60A4ED70394E59293767DD05DF4FE74 /* SenbayBLEConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FDB96A2B5FE9F3695B31348DF922731 /* Pods-SenbayLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7BA4BC795CA021F62CC8F6EB080876 /* Pods-SenbayLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE13012879B64E0F4506FD9F6468F88 /* NetStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C3BE00C797AAF11BBC303159B1283 /* NetStream.swift */; };
+		120DA0AAE99B8138B4309B7816EDEA14 /* MultiAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1FE5EB2DA95D20992067C7F3B53BD9 /* MultiAppender.swift */; };
+		140C02E4E7D03059B5F795FF8809FDE5 /* RTMPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EE2576D5B39637B91BAB1D62950E2 /* RTMPConnection.swift */; };
+		140F00B2A8A1B77D1F073834CE3CEF4B /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064CFAB888574BD2D1B30AF1133C2AE /* HTTPRequest.swift */; };
+		14DDDEDDA4F0D3367316E499B3579873 /* SenbayOpenWeatherMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E517AE1CC9660E0BF85AF5267C7667CC /* SenbayOpenWeatherMap.m */; };
+		168AEC502140BE41B34DE34C1378261C /* SenbayQRcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1690B702575135F5CB5F16D4740673 /* SenbayQRcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1733A797A66136911AB22ABB1F9ED528 /* SenbayLocalTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E7528F39199E981CBE909BAB0249DB /* SenbayLocalTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1800BF0F05C24AC1EE1302E96F1936A3 /* H264Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BF7D1E095B7F4CC35CF70781C0A109 /* H264Decoder.swift */; };
+		1AAAEC1B337E1FB704FF7D1D8287055C /* HaishinKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AFE158324FE0AFB2838955E56DE3D5 /* HaishinKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D01BDE83DF1F4C26D62205DD79218F8 /* OpenWeatherModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06201544EBC7F35B12C90FA6095A41D9 /* OpenWeatherModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4A388E7246B6BD354CB4A003381EB0 /* H264+AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227917EE95AE32A47087BE2A85036FFB /* H264+AVC.swift */; };
+		212B10C309B2BDC3EAD53EF9AA2D798D /* SenbaySensorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F28D21DE0E97E573932593CAFB2105 /* SenbaySensorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220F033E230EAA301FE5502DA086C076 /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF67CB3E50175DAACF2290CE5DFE3BC /* CVPixelBuffer+Extension.swift */; };
+		23BB53657163B83061B7E1B91A2CFAEA /* ByteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C4DCCAB237FAA56F991A0EA7ED7E7 /* ByteArray.swift */; };
+		23E738A72AA6ADAF445BAD61774C4091 /* SenbayCameraConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 386731A8A6FB89F928BC0DB5A2B98EB3 /* SenbayCameraConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25CF38C3B911ED422F0134A214BF9E63 /* SenbayPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A4FB923290088C1870FA3687311B2D /* SenbayPlayer.m */; };
+		276F082DA0A032AB6F2998B3A8E2FA96 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6481DBBBFF882E14B1A6050C8FE6D1F /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27844AF34A101463BB06349E28B3491C /* FLVSoundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5F6A869F0D428136FA3D61F65FDD0 /* FLVSoundType.swift */; };
+		2896D977C84B1F1344D9B802B5D55CB2 /* SoundSpliter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910C49B9F586E1455FA9310B28E8093A /* SoundSpliter.swift */; };
+		29F942D1A0AC68771E4FAA43EC861CF5 /* AnyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2B4A71129DB44E49051C7201203CB /* AnyUtil.swift */; };
+		29FE549B8940C66F1ABF767D548B63A2 /* AudioIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A560CFD2104EFC17BABCA152FBCE1 /* AudioIOComponent.swift */; };
+		2AA940E251972BCFC8EE1E62B16C5992 /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CB3D5DD882D6C278A99A781A84D3A /* VisualEffect.swift */; };
+		2E71B42E92F85F53BF522DB40B57EBC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		30169A0026017D898DAC180CC3218F79 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 704A6C190E0B06AAE30870A8DA08C957 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31331A2A82522D798BB58E82F5F1E08E /* RTMPHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206A345964102554FD2D4BF2D20F44A5 /* RTMPHandshake.swift */; };
+		316E9D4B871568F909B7B9A4B8A95320 /* FLVAACPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70CF202195507234D46A20FDCC3822 /* FLVAACPacket.swift */; };
+		34216CC4B8B9CAB8D9B4B4149968544E /* Logboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F2D8AA876F667FABADE0C4848453 /* Logboard-dummy.m */; };
+		3963691CB90E7EA703A21068276F0509 /* CMVideoFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F6181C7CB7682B1402E9045321B82 /* CMVideoFormatDescription+Extension.swift */; };
+		3A96591F0F999F485CE3ED19CE28CFA6 /* Pods-SenbayLiveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD113B87E4A48DC931A68657C52BF85 /* Pods-SenbayLiveTests-dummy.m */; };
+		3BBD697380E8A9B20D644D294677588D /* SenbayBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 152F9BBACC1D4358AE194B59798424C5 /* SenbayBattery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA6965BBD53C5BFFF75592E6BA9E392 /* SenbayData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4F63E76849ABF368C124EF13F49AE /* SenbayData.m */; };
+		3E9344BE7F48AFD01AE25D75C807FD33 /* HaishinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D21D0E0CD260D8C0B2D296389802DD12 /* HaishinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEB57257D97D05989F5E194699EE018 /* SenbayCameraConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9241AEAF1C4346611FCCB4C70624FC9D /* SenbayCameraConfig.m */; };
+		3EF99F73A18213810ADED1DD79481251 /* SenbayQRcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B42949899162C71802E422E7B50C8D3 /* SenbayQRcode.m */; };
+		4012C3425F5AE683F75BBCE68DC5408F /* H264Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821ADFDB8836CDBE3F72B97CDB0A9F8 /* H264Encoder.swift */; };
+		40D5383BB7092DB873762BF0DCC98C90 /* TSWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C5F0D526532DBC1DF36079B2C9EE3 /* TSWriter.swift */; };
+		41AAC4C2CA771CF6BB38417986F2C465 /* SenbayPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3ECF4BECBB38974D3F413DBA7DEA5F /* SenbayPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42843659F536A17808C9217B8DB8D18E /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976F60239F8353FEA13ECC4F9532962 /* DataConvertible.swift */; };
+		43AD8A488D9E1D040592B5DC54B52F37 /* M3U.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531231745BF2386F735616433DCFFAE /* M3U.swift */; };
+		46CDC2EDE7B88DE558C56A9DF07896CB /* RTMPStreamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F07A471CA2F965BBC6607F90969AC /* RTMPStreamDelegate.swift */; };
+		478B2EDC468AA4222E3D98E15715F549 /* SenbayLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 39207B1DD2C31A905BD4655363C79253 /* SenbayLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D0E15C2CBA98EB2ADC186D0A72FBB59 /* FLVAudioCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A02BCEFA4BBCCDC14231CA2AD128F8 /* FLVAudioCodec.swift */; };
+		4EB100FF9229539CA4094551779BF2BE /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB79003AD81909B1E081BC8F163738 /* CocoaAsyncSocket-dummy.m */; };
+		4EE801919A1D40AAD56004A0157100DF /* ExpressibleByIntegerLiteral+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4659B30003BEE2E21A1074404D788E /* ExpressibleByIntegerLiteral+Extension.swift */; };
+		5007D288F4B6EA17C25E0602B8D5204A /* AVMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B2F60770C655BDF5641EE85223237 /* AVMixer.swift */; };
+		516872A09C22EB6D22FBBFC86B0C112F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B3C599E130B7CF5D3C0DA5A153117 /* Constants.swift */; };
+		525357751D52CC370AD715F89A6BF01D /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2C0FB2DB54637969A2177104ED5D7 /* NetService.swift */; };
+		52B0DE0471C07DB83FA030E38A778EF0 /* FLVSoundSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E40CCA326501EED0218C893C432AE /* FLVSoundSize.swift */; };
+		5622A117453C21310B1FE51069940037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		572CCE2B5FF79D2528E0A048AA76ABA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		574A922825402A6DDFE7171CB9DDEC46 /* RTMPBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA24D11392D0EC16BEF372E2A914847E /* RTMPBroadcaster.swift */; };
+		58D25BB0C7F493D6E65A2973A06674F4 /* SenbayBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E72CDA38EFF07D888C2C63A2A8A7816 /* SenbayBLE.m */; };
+		5B1D5D3A10BA34824B2313F5BE9FBEB0 /* TimerDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DCCC25F7525404F3A26609DB0E13C /* TimerDriver.swift */; };
+		5B75AE543A6615E6B48566F18C8F7F6C /* Logboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 490385911CA78ACD4582F1D8B27F383E /* Logboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF546F63EABDECEFEF6C0C2CDD3CFF0 /* SenbayCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E9A5977680ECED9763F27AC194EA6D /* SenbayCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C313A47DFDD6832079D43F00E14767A /* HaishinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57440A6322D63850C2D35AE63B358697 /* HaishinKit-dummy.m */; };
+		5DFE219102C8B5953B8921336B1546EF /* CMSampleBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD7C41BC209A131EBD4AEC94D71477E /* CMSampleBuffer+Extension.swift */; };
+		5F7EF46D7B7FF99011B0829D0B7D5C15 /* ConsoleAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9C6EFCB57779EBEBAAE05EA75656B9 /* ConsoleAppender.swift */; };
+		60C37EBC83BB0D17AA3A7C77001C16D0 /* Logboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAB896F75554D9FEF4E212703F344D1 /* Logboard.framework */; };
+		62AC28FC08253457E5F34AD19A0584AF /* SenbayLocalTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C02F50ADCF17ED32C8BD0CD5399CA07C /* SenbayLocalTag.m */; };
+		635CC75AF2B82F5C5B719274CED942D9 /* VideoIOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184E4460D3B3DEC2552CA34E6AA4222 /* VideoIOComponent.swift */; };
+		66BDF6E9B1152E24DDE0AA6245722EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		681C5A09D9AA90FAB7B07E6C34284CC4 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82EC1B855898A69DB0CCFF0E45276C8 /* CocoaAsyncSocket.framework */; };
+		688F2983E077BA384B3832567688E99B /* TSReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F122CDCD42CAF7F5D54A62DA0D19483 /* TSReader.swift */; };
+		689369D0A797CB4A89E3ED37772B8E24 /* RTMPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC72536C3150C8FC46AA9F8E61A7BC9 /* RTMPSocket.swift */; };
+		6FA8CDA6F01E820D01111CC16E48D788 /* SenbaySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = C21001EB2FFD225AA745C8798EEDD018 /* SenbaySensor.m */; };
+		7084F712172D73E06F64BFC80BBCCAD5 /* SenbayBLEConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 785F319AFC50B39CEB3D7B6A93A04640 /* SenbayBLEConnector.m */; };
+		718E8A35FCA04171538BC2D5AF919C9A /* FLVAVCPacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D828D83EABE0971B8F8874AECDCFDC /* FLVAVCPacketType.swift */; };
+		72D185D2A1830E836BB6939950A2B0F3 /* RTMPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F15DD55F04B0D5E8FA7714DED3BFD18 /* RTMPMessage.swift */; };
+		736463C7BAEC936E2EFB4435AEB93DFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CF499AFE8210E48435F3C877951F41 /* CFNetwork.framework */; };
+		78862133DE21D3F961E2FD7F0E27FC1E /* HKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B8E23FAB397B21FC6E193EA713DD5 /* HKView.swift */; };
+		7A432EDA262C1D3FF428377CBFD1A856 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204F023D21B2EAD1B45B8CA5E892852 /* HTTPResponse.swift */; };
+		7BA701234C099101F36FE4155D7497C4 /* FLVSoundRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA7800DA4B7E0FB15C72B290192C88 /* FLVSoundRate.swift */; };
+		7C0B121B37DF694EC39949AC9BDB2FE0 /* NetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665D382E605BDE4C7FC17AA697C0492B /* NetClient.swift */; };
+		7DE4EBE26C0EDE5ED18852619B0BF8D6 /* IOComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80030325914D72038C1432F5C04906 /* IOComponent.swift */; };
+		827115FFD61168996737BC49B5DF3CD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169CC458B67CD04EA5A901A746E72CE /* UIKit.framework */; };
+		84D92FC60D98C077AB3A6D56AEBE8FEB /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0281F36D2753F3E8E8E876BD5C66941D /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859BAC20F1A2342F8E7BC4D711BD1D64 /* MP4Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C30A67D43BA30EBDE03FCE82F06FE /* MP4Reader.swift */; };
+		8733C17848A15C122592B50CD0F56EFA /* RTMPChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D140564153EA9E501BA02E0BC79D45A /* RTMPChunk.swift */; };
+		88EC1C169E5C05608D3B0970BA03938A /* AVMixerRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB1FD2F851CE4C2C8187AA1695E066 /* AVMixerRecorder.swift */; };
+		890F4DAB3893F89DB494142F2D85DA79 /* CMBlockBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7B6503C9333679BE7CA0B0D4025DD /* CMBlockBuffer+Extension.swift */; };
+		891282BA7373622432EB8886EEF13070 /* AMF0Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE935D288EAFFFD773F9214C86F779F /* AMF0Serializer.swift */; };
+		89436CC8868927540098E18A2FEF4973 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276EEABD4DB7FF332CD0457FE62524A /* CoreBluetooth.framework */; };
+		89787CD6258003D83B6C78239D497AB9 /* Pods-SenbayLiveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4056B557393B2209D17CF553D1F4620B /* Pods-SenbayLiveUITests-dummy.m */; };
+		8A72DE876D3FB8D2AA116E36BF9EEAEA /* DeviceUtil+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49FD33A9B5BEE10077939F4BA480472 /* DeviceUtil+Extenstion.swift */; };
+		8B904102B587D148D099A6D309CEA764 /* SenbayMotionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D86CEF310110D2B500697D89AD49375 /* SenbayMotionActivity.m */; };
+		8D95ACD2AE444B6116891D35C4821DEF /* SenbayReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FA3C445EB05DAA1DCEE336FE08735F /* SenbayReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EBC220D183F5176169791DFFB8C7D41 /* CMAudioFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B09D04938167BC611ED8310C12F2A5D /* CMAudioFormatDescription+Extension.swift */; };
+		9147E25C5845B3740211859895AD8392 /* PacketizedElementaryStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37EF2E59F9BED4BC8C158D1A8C5EF2D /* PacketizedElementaryStream.swift */; };
+		91C911B8453731D5918390763C435070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		93170E481CDBD7C54C6E9564E5888C3B /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE3D3765CFBFAC14B190DA5144AC5E /* AudioConverter.swift */; };
+		94314C5236852ECC497FAF51A85B1625 /* SenbayScreenBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06B73F875FB00536C9B12E1E3CB597 /* SenbayScreenBrightness.m */; };
+		946B8DE90A7C6B3872C82AA2AF240118 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA801AADCE1FFAC0A14CA2823D58A42 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		946F203558FD8983A91C260947A7EA63 /* ReservedKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D8CD8CB83C78BAB9AE71A967D0ECB /* ReservedKeys.m */; };
+		96DFE73E41B70AF1ABA5AAA7B782FAE1 /* Pods-SenbayLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BF26841703B224DAFD41E7063FCAF9 /* Pods-SenbayLive-dummy.m */; };
+		9A504D1D16F8CDECC4B09A54D787A9C6 /* MP4Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A815A531DAFF1E868F855E3977DD32 /* MP4Sampler.swift */; };
+		9B3887A4095BAE56321569827228748B /* Logboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8099F4AD84671BAC0562C38B444A2EE /* Logboard.swift */; };
+		9C3DF503AA2A13D9DF579D3E0A9A4273 /* BaseX.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EBCB1AAC2F22766925FA9FACC1B068 /* BaseX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F03D0FF647D7180518009A35980BF56 /* Logboard.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1739A9AA191968791C3E640FF0036C /* Logboard.Data.swift */; };
+		9FE3C8CEC4A067BC08078EADE1AFCC4D /* SenbayFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = AD57A6356586FB90FC9A786C2BD6AA45 /* SenbayFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0AE10BCBFEAAFB8B05DBFB358B41795 /* FLVTagType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483EDC1DCC8A46A563D1552556DC44C /* FLVTagType.swift */; };
+		A13C335B741BF76ED3D68EB0A9946240 /* SenbayBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FBBF0DC84B0775A0AEB6A04372005F /* SenbayBattery.m */; };
+		A3A09D5DA5F35FCDDFA1E140C55A665A /* RTMPMuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A1EBAF19CAB7CBE901E16930A1CB08 /* RTMPMuxer.swift */; };
+		A3A1A6A7706EBEDDDEAB425E40D96072 /* FLVFrameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DEEE5DA7A130931C12DE70776CC65C /* FLVFrameType.swift */; };
+		A42006AC68107ED0D9A0E766FA38EEAD /* RTMPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42275453AF4E3A5016F9EFC5584A63 /* RTMPHandler.swift */; };
+		A4A09DA34D76E381BA90EF80E40A14B0 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD275DF143280AC75C59BD12E79538 /* MD5.swift */; };
+		A8DF9EB1A2247C8A2EA1A28C8A062B10 /* RTMPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC2A8B4268B8CA6692701673E70D05 /* RTMPStream.swift */; };
+		AA8C550D7ABB225737AFC9E9B068F76A /* AudioSpecificConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B004B827211D5CADB7C6C82984A92C3 /* AudioSpecificConfig.swift */; };
+		AC166C66311BCAAAD1D9289A80E51CCF /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C7B124241020FDC80C84065BFC9B37 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC30F7CFFD0CEBBCD112EE4068B5BF7E /* ASClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13B2722F81F15C8309BEE0BE39AF17 /* ASClass.swift */; };
+		AC4C59C4E7CDD63DB683A1716D03D335 /* SenbayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A041BFBE3CCCECB2216A21872F2F49F /* SenbayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF636157E41EA2C11EDF3236D51C2850 /* SenbayCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C539846F527D31A79EB02DF56A9E7A /* SenbayCamera.m */; };
+		AFEA4D64CFEBDA2F2CCA98734D191352 /* NullAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D33E14DCF1775BEE9DD442684E82C8 /* NullAppender.swift */; };
+		B069F86B45D5EB87E8A768F7B2EA5CF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B34E251E32EA9E34E4CDA1C985A306 /* AVFoundation.framework */; };
+		B33796DA543A0EBEDD95E5F895D00BD5 /* SenbaySensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4430FD757F8C50B36E9DB7EF2D4078 /* SenbaySensorManager.m */; };
+		B675B43AFBBA88308070B3606135DE90 /* VideoGravityUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53467CC30E73432726D97DBCC6522137 /* VideoGravityUtil.swift */; };
+		B6DC8D384EC4A2F4476B30DA7FAAD301 /* SocketAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0A38F45D8D242805E4133724B889CA /* SocketAppender.swift */; };
+		B8EB0B211B5913D73E745B15EC606E4B /* DisplayLinkedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928A714BC47BB8EFB731591CE2717A73 /* DisplayLinkedQueue.swift */; };
+		BC1DE55CE265907F002B3C34C115DE52 /* SenbayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A89F2E8F93365482B999801C664093F /* SenbayKit-dummy.m */; };
+		BDB78D62FF6A241A20F102EFFC1721BC /* SenbaySensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C54DBAEB9620EC4C5DA9B3A07266D4 /* SenbaySensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1CFC73323006645E28C302A2C7AD1E /* SenbayLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9395F8DA0CDDE0E1A2A6BB6B84F92 /* SenbayLocation.m */; };
+		BEEE9C76A044FB078CB1D429C3D156B1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B72D0C1098CE21124E31544D809B351 /* CoreMotion.framework */; };
+		BF695CF001F2B97039FA9C83744BD6CD /* TransportStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2A0EC0C7BE4E18C229AD954855C34 /* TransportStream.swift */; };
+		C00956E6B3052A863513BD71A7DA0A39 /* SenbayReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B87288915ACC82A87B180E6B9B93394 /* SenbayReader.m */; };
+		C12AE692BA6DE84623EF256DB23C43DE /* NALUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF9164ECBE2CC18EA1B06C3B0E40FF /* NALUnit.swift */; };
+		C80B37F9E988D5A19E26E1671ABB386C /* SenbayOpenWeatherMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 067D9E912C83BFF46D757AE6EEAC82D4 /* SenbayOpenWeatherMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8286D88ADC147B688D0806F1F59A2B5 /* EventDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634554E36B15D2BF95DC6F42FCEC4A11 /* EventDispatcher.swift */; };
+		C98C348B0633EB40F2613F84B4E1A780 /* SenbayFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 146AB9C595B41ED748323550BBAE7CE8 /* SenbayFormat.m */; };
+		C9BF78D496386BD6E833591DE0368B8C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38683A534752E01CB9D0F94DE6B89EB4 /* OpenGLES.framework */; };
+		CA6D9161E9BB13568825328E9BE6576F /* HaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3665D7BF494E11961E889EF7D5068F /* HaishinKit.framework */; };
+		CBD76B7507A2035CD9FA39A7D3F679C4 /* ReservedKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 6504F395893E6DE366558BC3116E0E6D /* ReservedKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC4791EB935FB9B22BB3DBEC0497959D /* LogboardAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C2230BABBCB4596997783D6505CBE /* LogboardAppender.swift */; };
+		CD1EAF99040981A7002D7F1DA78035E2 /* AMF3Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214115B6D5813927ACA1302AAB71B794 /* AMF3Serializer.swift */; };
+		CD40E8FD9FDF1D07A4D5AB3F3496EBBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */; };
+		D089BB9395773863FC5F364F1DDB3718 /* FLVVideoCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB5AA42C3900917F0E3B5AA74FBB7A /* FLVVideoCodec.swift */; };
+		D20682306B41F98A459CDA167E52164A /* VTSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B3CF7440120D8BE0A3EFFEA7BB7189 /* VTSession+Extension.swift */; };
+		D23980AC1A3DB7E6268C9BD553B9903B /* MachUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BC01613906BFACDBBFFED03348C25 /* MachUtil.swift */; };
+		D27D245CDE6CF07706244496313733EC /* VideoIOComponent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7755A0D1BD3F8529C83F7B8AC7BD0B7 /* VideoIOComponent+Extension.swift */; };
+		D492154BA9F3AAEBEED0438CD6FBB6E4 /* HTTPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15239DB56C4480E040620565B14465BA /* HTTPStream.swift */; };
+		D5ED432E3E7DCDC8657413431298560A /* ScalingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012BB82645F93BDFCB18DAB3C9F70015 /* ScalingMode.swift */; };
+		D7B6A98349F8FEC226344E4475FD54EC /* OpenWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1276FCB2E6CBE90A4B4BF35FBEF4B80D /* OpenWeatherModel.m */; };
+		D9E46732BB7386AFB5E4CBF3346A624D /* SenbayIMU.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD2C68D6097DE08CE9227A52AC48365 /* SenbayIMU.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2E2C70427C13988C15D89A72AB2482 /* FLVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4708D814D66263EB03C9034C00D94B /* FLVReader.swift */; };
+		DB45CB1103CBA642D82B3E4BAD421D56 /* SoundTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653040B6E3F1EC7648DAF6D392FE845 /* SoundTransform.swift */; };
+		E06B243CE5E55A579E8108C91910B511 /* Pods-SenbayLiveUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C9A4B1C7C077B0A7B39B4FEB2997C8 /* Pods-SenbayLiveUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E101211D7655F3FECC1FD60CD27C7A8F /* DeviceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D554A226DCAAD76414384049E789E /* DeviceUtil.swift */; };
+		E352BC5A44DBCDF9A3CED52B115A825E /* NetStream+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482055969760522478163081C734072 /* NetStream+Extension.swift */; };
+		E46A93F63D621D6D9ACF89F5A2EE8CD7 /* MTHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B5701EA6CE526BF4A02A063FEB7E3 /* MTHKView.swift */; };
+		E51DED10AC8A17F237ABBC7B1974A4CF /* SenbayNetworkSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6712BC39F6BBEC29425AC38DAC4379 /* SenbayNetworkSocket.m */; };
+		E67FD04B2381868FC683AD7A95A0B5B3 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7DEF485658A93D74C0FBDF46A7F79 /* HTTPService.swift */; };
+		E77057197866DCD65B7DB21A201A4E2A /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05E93CE0D59C8B4E3BD48DE225CBD4 /* Running.swift */; };
+		E7864E438D364E5EDCADD13CF6B4BBE1 /* SenbayIMU.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8F780B382CA008A60309B9D7B46BF1 /* SenbayIMU.m */; };
+		EA3927DE2984EA8CC679D1855E065118 /* CRC32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D2FF8B8F1BB9DB8081647F86F1EA1 /* CRC32.swift */; };
+		EB5D1E7A432D8DB9B629409945BE31CC /* RTMPSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8ADE8DDD16DBC8A46B440698771995 /* RTMPSharedObject.swift */; };
+		ED2814B117C017C314B085C214CF744A /* GLHKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8C0316117F9B70A7D134275657591 /* GLHKView.swift */; };
+		EE99A54239866DACA866E0C326387A5F /* ScreenCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A5F8A03EF5AC62F1717B7EFF6761BA /* ScreenCaptureSession.swift */; };
+		EF8E2C5A0D6767F65DDA4D3EEC7D5F56 /* SenbayData.h in Headers */ = {isa = PBXBuildFile; fileRef = D95345C82EE9C585747363E77C989844 /* SenbayData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF97BBA705E32D8A2C0D71B8D20737B /* ProgramSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC992C01FC5040533BF05EA9F8D1F142 /* ProgramSpecific.swift */; };
+		F12413C09589362E8710357C54226588 /* RTMPTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06202ABB4903D7478A446352E3ADF8 /* RTMPTSocket.swift */; };
+		F4DD937CC8619111B901C8EBD932F80A /* BaseX.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A61A43781FDF5E0F550EB4B1B09F4 /* BaseX.m */; };
+		F6D8857B3215B0BFB7222019668D406D /* SenbayNetworkSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F345B2211800502993D1820EF03651E /* SenbayNetworkSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98375163FE7E51B9FD403CF95047DE2 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED5C71FB5B5C51280F146A698ED8E8 /* URL+Extension.swift */; };
+		F9F4D771597E4A1D8CFD69E30943B844 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B64C5A4951A48BF591539E699FBA370 /* Data+Extension.swift */; };
+		FB7CE4DF5EED9E43D8E863B9B717B4D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F61BCEBD5175D7E98E494A08CD2EF4 /* CoreLocation.framework */; };
+		FC17F55C1E182E98B15E46EA9FFC11DB /* CMSampleTimingInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A131BA6D48FE36937A4C564C602C9D /* CMSampleTimingInfo+Extension.swift */; };
+		FC1B28DC3A69C2938C957E54CACC056A /* Logboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F603E6F86C27A7F7222B6FE011AD64B0 /* Logboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDB5D8F43D43BF604DDAE0C9279DDD8 /* SenbayBLE.h in Headers */ = {isa = PBXBuildFile; fileRef = 521843579AB34621F1147F2D6872758A /* SenbayBLE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF0A69C9A6C8209272F0BEC35356168 /* CMFormatDescription+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0D2AFBB268C0EA0FB609B5D688EFD /* CMFormatDescription+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097F4C1F91C7585F1A5343635FF597E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079D5C9FAA56FCF823381F5AAB6424A6;
+			remoteInfo = HaishinKit;
+		};
+		373EFE2F15688DB07F5D199AE3EAD270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9F16A11CCB7B75DFD4C14783C83019;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		3FB049C43F431408F4D2D3EED4575AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079D5C9FAA56FCF823381F5AAB6424A6;
+			remoteInfo = HaishinKit;
+		};
+		63D927CA035C4F2F3C3E4981E04C5AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9F16A11CCB7B75DFD4C14783C83019;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		6DADD92964D8B7A741F92430F89ED631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C06B4AB487CFB7B4C4910E09396AB8;
+			remoteInfo = SenbayKit;
+		};
+		B2318A79C8BD98B223A2F8E3258AE098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF27C9D95DD41004B100262C28E8D7F;
+			remoteInfo = "Pods-SenbayLive";
+		};
+		D1989F4C73697D0C9D09693670D02226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39145C6FEDFF9C22FD7E2EACBC30CE2;
+			remoteInfo = Logboard;
+		};
+		D7885534CE2343C59D9FEE541D12BDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF27C9D95DD41004B100262C28E8D7F;
+			remoteInfo = "Pods-SenbayLive";
+		};
+		F085E5A51F5C64B63BF6CC149770A423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39145C6FEDFF9C22FD7E2EACBC30CE2;
+			remoteInfo = Logboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012BB82645F93BDFCB18DAB3C9F70015 /* ScalingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScalingMode.swift; path = Sources/Media/ScalingMode.swift; sourceTree = "<group>"; };
+		01C2C0FB2DB54637969A2177104ED5D7 /* NetService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetService.swift; path = Sources/Net/NetService.swift; sourceTree = "<group>"; };
+		0281F36D2753F3E8E8E876BD5C66941D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		03C54DBAEB9620EC4C5DA9B3A07266D4 /* SenbaySensor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbaySensor.h; path = SenbayKit/Classes/Sensors/SenbaySensor.h; sourceTree = "<group>"; };
+		047C3BE00C797AAF11BBC303159B1283 /* NetStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetStream.swift; path = Sources/Net/NetStream.swift; sourceTree = "<group>"; };
+		06201544EBC7F35B12C90FA6095A41D9 /* OpenWeatherModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenWeatherModel.h; path = SenbayKit/Classes/Models/OpenWeatherModel.h; sourceTree = "<group>"; };
+		067D9E912C83BFF46D757AE6EEAC82D4 /* SenbayOpenWeatherMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayOpenWeatherMap.h; path = SenbayKit/Classes/Sensors/SenbayOpenWeatherMap.h; sourceTree = "<group>"; };
+		06CF499AFE8210E48435F3C877951F41 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		09EB68412374305171BBCCF9ECB3F91A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0A11AE34E95C2233613B6D7F2697FA44 /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Sources/Util/Atomic.swift; sourceTree = "<group>"; };
+		0AFDFE867A3B80959A9BEEC47E26F078 /* SenbayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SenbayKit.modulemap; sourceTree = "<group>"; };
+		0B54EA9E2182749557B1511EAC51E254 /* Pods-SenbayLiveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLiveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CE0D2AFBB268C0EA0FB609B5D688EFD /* CMFormatDescription+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMFormatDescription+Extension.swift"; path = "Sources/Extension/CMFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		10B34E251E32EA9E34E4CDA1C985A306 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		1276FCB2E6CBE90A4B4BF35FBEF4B80D /* OpenWeatherModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpenWeatherModel.m; path = SenbayKit/Classes/Models/OpenWeatherModel.m; sourceTree = "<group>"; };
+		146AB9C595B41ED748323550BBAE7CE8 /* SenbayFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayFormat.m; path = SenbayKit/Classes/Models/SenbayFormat.m; sourceTree = "<group>"; };
+		1482055969760522478163081C734072 /* NetStream+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NetStream+Extension.swift"; path = "Platforms/iOS/NetStream+Extension.swift"; sourceTree = "<group>"; };
+		15239DB56C4480E040620565B14465BA /* HTTPStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPStream.swift; path = Sources/HTTP/HTTPStream.swift; sourceTree = "<group>"; };
+		152F9BBACC1D4358AE194B59798424C5 /* SenbayBattery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayBattery.h; path = SenbayKit/Classes/Sensors/SenbayBattery.h; sourceTree = "<group>"; };
+		17C43C96CDE3BFD0BA86A9BBBB888215 /* Pods-SenbayLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD45C0932E20076C3C58E74CEE0D366 /* Logboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logboard-prefix.pch"; sourceTree = "<group>"; };
+		1B64C5A4951A48BF591539E699FBA370 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/Extension/Data+Extension.swift"; sourceTree = "<group>"; };
+		1C6B3C599E130B7CF5D3C0DA5A153117 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/Util/Constants.swift; sourceTree = "<group>"; };
+		206A345964102554FD2D4BF2D20F44A5 /* RTMPHandshake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPHandshake.swift; path = Sources/RTMP/RTMPHandshake.swift; sourceTree = "<group>"; };
+		214115B6D5813927ACA1302AAB71B794 /* AMF3Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMF3Serializer.swift; path = Sources/RTMP/AMF3Serializer.swift; sourceTree = "<group>"; };
+		21BE3D3765CFBFAC14B190DA5144AC5E /* AudioConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverter.swift; path = Sources/Codec/AudioConverter.swift; sourceTree = "<group>"; };
+		21C5F6A869F0D428136FA3D61F65FDD0 /* FLVSoundType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVSoundType.swift; path = Sources/FLV/FLVSoundType.swift; sourceTree = "<group>"; };
+		227917EE95AE32A47087BE2A85036FFB /* H264+AVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "H264+AVC.swift"; path = "Sources/ISO/H264+AVC.swift"; sourceTree = "<group>"; };
+		250B5701EA6CE526BF4A02A063FEB7E3 /* MTHKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTHKView.swift; path = Platforms/iOS/MTHKView.swift; sourceTree = "<group>"; };
+		269EE2576D5B39637B91BAB1D62950E2 /* RTMPConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPConnection.swift; path = Sources/RTMP/RTMPConnection.swift; sourceTree = "<group>"; };
+		26F7F2D8AA876F667FABADE0C4848453 /* Logboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Logboard-dummy.m"; sourceTree = "<group>"; };
+		29F779ACD1AB50B555826EAC57F49DFD /* Pods-SenbayLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B004B827211D5CADB7C6C82984A92C3 /* AudioSpecificConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioSpecificConfig.swift; path = Sources/ISO/AudioSpecificConfig.swift; sourceTree = "<group>"; };
+		2B7BA4BC795CA021F62CC8F6EB080876 /* Pods-SenbayLive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SenbayLive-umbrella.h"; sourceTree = "<group>"; };
+		2BD113B87E4A48DC931A68657C52BF85 /* Pods-SenbayLiveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SenbayLiveTests-dummy.m"; sourceTree = "<group>"; };
+		2D70CF202195507234D46A20FDCC3822 /* FLVAACPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVAACPacket.swift; path = Sources/FLV/FLVAACPacket.swift; sourceTree = "<group>"; };
+		2F15DD55F04B0D5E8FA7714DED3BFD18 /* RTMPMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPMessage.swift; path = Sources/RTMP/RTMPMessage.swift; sourceTree = "<group>"; };
+		30C7B124241020FDC80C84065BFC9B37 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		30FBBF0DC84B0775A0AEB6A04372005F /* SenbayBattery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayBattery.m; path = SenbayKit/Classes/Sensors/SenbayBattery.m; sourceTree = "<group>"; };
+		33D33E14DCF1775BEE9DD442684E82C8 /* NullAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NullAppender.swift; path = Sources/NullAppender.swift; sourceTree = "<group>"; };
+		381435AA2AD27A5AC9FA5B2AFBAF5CF3 /* Logboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logboard.framework; path = Logboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386731A8A6FB89F928BC0DB5A2B98EB3 /* SenbayCameraConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayCameraConfig.h; path = SenbayKit/Classes/Models/SenbayCameraConfig.h; sourceTree = "<group>"; };
+		38683A534752E01CB9D0F94DE6B89EB4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		39207B1DD2C31A905BD4655363C79253 /* SenbayLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayLocation.h; path = SenbayKit/Classes/Sensors/SenbayLocation.h; sourceTree = "<group>"; };
+		3A1690B702575135F5CB5F16D4740673 /* SenbayQRcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayQRcode.h; path = SenbayKit/Classes/Models/SenbayQRcode.h; sourceTree = "<group>"; };
+		3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CD2C68D6097DE08CE9227A52AC48365 /* SenbayIMU.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayIMU.h; path = SenbayKit/Classes/Sensors/SenbayIMU.h; sourceTree = "<group>"; };
+		4056B557393B2209D17CF553D1F4620B /* Pods-SenbayLiveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SenbayLiveUITests-dummy.m"; sourceTree = "<group>"; };
+		4064CFAB888574BD2D1B30AF1133C2AE /* HTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRequest.swift; path = Sources/HTTP/HTTPRequest.swift; sourceTree = "<group>"; };
+		40A5F8A03EF5AC62F1717B7EFF6761BA /* ScreenCaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenCaptureSession.swift; path = Platforms/iOS/ScreenCaptureSession.swift; sourceTree = "<group>"; };
+		40E7528F39199E981CBE909BAB0249DB /* SenbayLocalTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayLocalTag.h; path = SenbayKit/Classes/Sensors/SenbayLocalTag.h; sourceTree = "<group>"; };
+		428BE705E205B22337DD51C07917ECBB /* HaishinKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaishinKit.xcconfig; sourceTree = "<group>"; };
+		4418A550EAAD703368FA27D87A8E3F13 /* HaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HaishinKit.framework; path = HaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445B8E23FAB397B21FC6E193EA713DD5 /* HKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKView.swift; path = Platforms/iOS/HKView.swift; sourceTree = "<group>"; };
+		4506E6EC72843A450EEECEFFF8D590B4 /* SenbayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SenbayKit.framework; path = SenbayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4653040B6E3F1EC7648DAF6D392FE845 /* SoundTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundTransform.swift; path = Sources/Media/SoundTransform.swift; sourceTree = "<group>"; };
+		47F28D21DE0E97E573932593CAFB2105 /* SenbaySensorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbaySensorManager.h; path = SenbayKit/Classes/Sensors/SenbaySensorManager.h; sourceTree = "<group>"; };
+		490385911CA78ACD4582F1D8B27F383E /* Logboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logboard.h; path = Platforms/iOS/Logboard.h; sourceTree = "<group>"; };
+		4B42949899162C71802E422E7B50C8D3 /* SenbayQRcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayQRcode.m; path = SenbayKit/Classes/Models/SenbayQRcode.m; sourceTree = "<group>"; };
+		4FE935D288EAFFFD773F9214C86F779F /* AMF0Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AMF0Serializer.swift; path = Sources/RTMP/AMF0Serializer.swift; sourceTree = "<group>"; };
+		4FF67CB3E50175DAACF2290CE5DFE3BC /* CVPixelBuffer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CVPixelBuffer+Extension.swift"; path = "Sources/Extension/CVPixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		5204F023D21B2EAD1B45B8CA5E892852 /* HTTPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPResponse.swift; path = Sources/HTTP/HTTPResponse.swift; sourceTree = "<group>"; };
+		521843579AB34621F1147F2D6872758A /* SenbayBLE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayBLE.h; path = SenbayKit/Classes/Sensors/SenbayBLE.h; sourceTree = "<group>"; };
+		533F6181C7CB7682B1402E9045321B82 /* CMVideoFormatDescription+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMVideoFormatDescription+Extension.swift"; path = "Sources/Extension/CMVideoFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		53467CC30E73432726D97DBCC6522137 /* VideoGravityUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoGravityUtil.swift; path = Sources/Util/VideoGravityUtil.swift; sourceTree = "<group>"; };
+		54120B63324D008036935E9BDF22F59D /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		54A1EBAF19CAB7CBE901E16930A1CB08 /* RTMPMuxer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPMuxer.swift; path = Sources/RTMP/RTMPMuxer.swift; sourceTree = "<group>"; };
+		57440A6322D63850C2D35AE63B358697 /* HaishinKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaishinKit-dummy.m"; sourceTree = "<group>"; };
+		5821776409585622176C2BB425AEE4F7 /* SenbayMotionActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayMotionActivity.h; path = SenbayKit/Classes/Sensors/SenbayMotionActivity.h; sourceTree = "<group>"; };
+		5821ADFDB8836CDBE3F72B97CDB0A9F8 /* H264Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = H264Encoder.swift; path = Sources/Codec/H264Encoder.swift; sourceTree = "<group>"; };
+		593D554A226DCAAD76414384049E789E /* DeviceUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceUtil.swift; path = Sources/Util/DeviceUtil.swift; sourceTree = "<group>"; };
+		59965283B5A5D080FB96BDDE652C4BF8 /* MIME.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MIME.swift; path = Sources/Net/MIME.swift; sourceTree = "<group>"; };
+		5B8ADE8DDD16DBC8A46B440698771995 /* RTMPSharedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPSharedObject.swift; path = Sources/RTMP/RTMPSharedObject.swift; sourceTree = "<group>"; };
+		5C1D2FF8B8F1BB9DB8081647F86F1EA1 /* CRC32.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRC32.swift; path = Sources/Util/CRC32.swift; sourceTree = "<group>"; };
+		5DAB5AA42C3900917F0E3B5AA74FBB7A /* FLVVideoCodec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVVideoCodec.swift; path = Sources/FLV/FLVVideoCodec.swift; sourceTree = "<group>"; };
+		5F345B2211800502993D1820EF03651E /* SenbayNetworkSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayNetworkSocket.h; path = SenbayKit/Classes/Sensors/SenbayNetworkSocket.h; sourceTree = "<group>"; };
+		5FB7B6503C9333679BE7CA0B0D4025DD /* CMBlockBuffer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMBlockBuffer+Extension.swift"; path = "Sources/Extension/CMBlockBuffer+Extension.swift"; sourceTree = "<group>"; };
+		5FED30CCA82CCB784D2851AA8B98AC1A /* Pods-SenbayLive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SenbayLive.modulemap"; sourceTree = "<group>"; };
+		603D4E0D254E45C75B0E1BF1DF1A89E4 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		60AFE158324FE0AFB2838955E56DE3D5 /* HaishinKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaishinKit-umbrella.h"; sourceTree = "<group>"; };
+		61B3CF7440120D8BE0A3EFFEA7BB7189 /* VTSession+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VTSession+Extension.swift"; path = "Sources/Extension/VTSession+Extension.swift"; sourceTree = "<group>"; };
+		62A4FB923290088C1870FA3687311B2D /* SenbayPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayPlayer.m; path = SenbayKit/Classes/SenbayPlayer.m; sourceTree = "<group>"; };
+		634554E36B15D2BF95DC6F42FCEC4A11 /* EventDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventDispatcher.swift; path = Sources/Util/EventDispatcher.swift; sourceTree = "<group>"; };
+		6504F395893E6DE366558BC3116E0E6D /* ReservedKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReservedKeys.h; path = SenbayKit/Classes/Utilities/ReservedKeys.h; sourceTree = "<group>"; };
+		6531231745BF2386F735616433DCFFAE /* M3U.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M3U.swift; path = Sources/HTTP/M3U.swift; sourceTree = "<group>"; };
+		65750A25A2FC4BFFC7027D1F9A74A492 /* SenbayKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SenbayKit.xcconfig; sourceTree = "<group>"; };
+		665D382E605BDE4C7FC17AA697C0492B /* NetClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetClient.swift; path = Sources/Net/NetClient.swift; sourceTree = "<group>"; };
+		667BC01613906BFACDBBFFED03348C25 /* MachUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MachUtil.swift; path = Sources/Util/MachUtil.swift; sourceTree = "<group>"; };
+		6A041BFBE3CCCECB2216A21872F2F49F /* SenbayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SenbayKit-umbrella.h"; sourceTree = "<group>"; };
+		6CEB817A22CA4E78C1592901F73908DC /* Pods-SenbayLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLive.debug.xcconfig"; sourceTree = "<group>"; };
+		6D33EE26341DE0586F4B5D26F025A47A /* SenbayScreenBrightness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayScreenBrightness.h; path = SenbayKit/Classes/Sensors/SenbayScreenBrightness.h; sourceTree = "<group>"; };
+		704A6C190E0B06AAE30870A8DA08C957 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		740E0CFE3B175ECEB266C43F6AC2315C /* HaishinKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HaishinKit-Info.plist"; sourceTree = "<group>"; };
+		74A131BA6D48FE36937A4C564C602C9D /* CMSampleTimingInfo+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMSampleTimingInfo+Extension.swift"; path = "Sources/Extension/CMSampleTimingInfo+Extension.swift"; sourceTree = "<group>"; };
+		757C5F0D526532DBC1DF36079B2C9EE3 /* TSWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSWriter.swift; path = Sources/ISO/TSWriter.swift; sourceTree = "<group>"; };
+		785F319AFC50B39CEB3D7B6A93A04640 /* SenbayBLEConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayBLEConnector.m; path = SenbayKit/Classes/SenbayBLEConnector.m; sourceTree = "<group>"; };
+		7A5E40CCA326501EED0218C893C432AE /* FLVSoundSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVSoundSize.swift; path = Sources/FLV/FLVSoundSize.swift; sourceTree = "<group>"; };
+		7B09D04938167BC611ED8310C12F2A5D /* CMAudioFormatDescription+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMAudioFormatDescription+Extension.swift"; path = "Sources/Extension/CMAudioFormatDescription+Extension.swift"; sourceTree = "<group>"; };
+		7B0A38F45D8D242805E4133724B889CA /* SocketAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAppender.swift; path = Sources/SocketAppender.swift; sourceTree = "<group>"; };
+		7CFFF9533344096790682CA8DFF3E47B /* Pods-SenbayLiveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SenbayLiveTests-umbrella.h"; sourceTree = "<group>"; };
+		7D0C2230BABBCB4596997783D6505CBE /* LogboardAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogboardAppender.swift; path = Sources/LogboardAppender.swift; sourceTree = "<group>"; };
+		7D140564153EA9E501BA02E0BC79D45A /* RTMPChunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPChunk.swift; path = Sources/RTMP/RTMPChunk.swift; sourceTree = "<group>"; };
+		7D1FE5EB2DA95D20992067C7F3B53BD9 /* MultiAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiAppender.swift; path = Sources/MultiAppender.swift; sourceTree = "<group>"; };
+		7D3665D7BF494E11961E889EF7D5068F /* HaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4430FD757F8C50B36E9DB7EF2D4078 /* SenbaySensorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbaySensorManager.m; path = SenbayKit/Classes/Sensors/SenbaySensorManager.m; sourceTree = "<group>"; };
+		7E8F780B382CA008A60309B9D7B46BF1 /* SenbayIMU.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayIMU.m; path = SenbayKit/Classes/Sensors/SenbayIMU.m; sourceTree = "<group>"; };
+		80839282496F75195D31EFA6A92B3D39 /* Pods-SenbayLiveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLiveTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		813A61A43781FDF5E0F550EB4B1B09F4 /* BaseX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseX.m; path = SenbayKit/Classes/Utilities/BaseX.m; sourceTree = "<group>"; };
+		82C539846F527D31A79EB02DF56A9E7A /* SenbayCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayCamera.m; path = SenbayKit/Classes/SenbayCamera.m; sourceTree = "<group>"; };
+		838D958F3687F10A25B9C7458F58BC57 /* Logboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logboard.xcconfig; sourceTree = "<group>"; };
+		85D8C0316117F9B70A7D134275657591 /* GLHKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLHKView.swift; path = Platforms/iOS/GLHKView.swift; sourceTree = "<group>"; };
+		86FE8F6E88C3483AC209EE6EB7C54D20 /* Pods-SenbayLiveTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLiveTests-Info.plist"; sourceTree = "<group>"; };
+		8976F60239F8353FEA13ECC4F9532962 /* DataConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataConvertible.swift; path = Sources/Util/DataConvertible.swift; sourceTree = "<group>"; };
+		8B72D0C1098CE21124E31544D809B351 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		8D86CEF310110D2B500697D89AD49375 /* SenbayMotionActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayMotionActivity.m; path = SenbayKit/Classes/Sensors/SenbayMotionActivity.m; sourceTree = "<group>"; };
+		8EC72536C3150C8FC46AA9F8E61A7BC9 /* RTMPSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPSocket.swift; path = Sources/RTMP/RTMPSocket.swift; sourceTree = "<group>"; };
+		8F3C30A67D43BA30EBDE03FCE82F06FE /* MP4Reader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MP4Reader.swift; path = Sources/ISO/MP4Reader.swift; sourceTree = "<group>"; };
+		8F80BA571CF570BF6CFA3A8634B23190 /* Logboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logboard-Info.plist"; sourceTree = "<group>"; };
+		910C49B9F586E1455FA9310B28E8093A /* SoundSpliter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundSpliter.swift; path = Sources/Media/SoundSpliter.swift; sourceTree = "<group>"; };
+		916D8CD8CB83C78BAB9AE71A967D0ECB /* ReservedKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReservedKeys.m; path = SenbayKit/Classes/Utilities/ReservedKeys.m; sourceTree = "<group>"; };
+		91FB79003AD81909B1E081BC8F163738 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9241AEAF1C4346611FCCB4C70624FC9D /* SenbayCameraConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayCameraConfig.m; path = SenbayKit/Classes/Models/SenbayCameraConfig.m; sourceTree = "<group>"; };
+		926B3312BBE00A7B463994F954082003 /* HaishinKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaishinKit-prefix.pch"; sourceTree = "<group>"; };
+		928A714BC47BB8EFB731591CE2717A73 /* DisplayLinkedQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayLinkedQueue.swift; path = Sources/Util/DisplayLinkedQueue.swift; sourceTree = "<group>"; };
+		941FBF18482452A923A85C8A5B14B630 /* HaishinKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HaishinKit.modulemap; sourceTree = "<group>"; };
+		943A560CFD2104EFC17BABCA152FBCE1 /* AudioIOComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioIOComponent.swift; path = Sources/Media/AudioIOComponent.swift; sourceTree = "<group>"; };
+		97CEC49BAC6C957353C8F5875EC9DDFF /* Pods-SenbayLive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLive-acknowledgements.plist"; sourceTree = "<group>"; };
+		99EB81EBFF2DF0431AB1DDE145D5EF3B /* Pods-SenbayLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A89F2E8F93365482B999801C664093F /* SenbayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SenbayKit-dummy.m"; sourceTree = "<group>"; };
+		9B4D5E3433C4FC2059EA49E5C4D7CEC8 /* Pods-SenbayLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B87288915ACC82A87B180E6B9B93394 /* SenbayReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayReader.m; path = SenbayKit/Classes/SenbayReader.m; sourceTree = "<group>"; };
+		9E72CDA38EFF07D888C2C63A2A8A7816 /* SenbayBLE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayBLE.m; path = SenbayKit/Classes/Sensors/SenbayBLE.m; sourceTree = "<group>"; };
+		9F122CDCD42CAF7F5D54A62DA0D19483 /* TSReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSReader.swift; path = Sources/ISO/TSReader.swift; sourceTree = "<group>"; };
+		9FA801AADCE1FFAC0A14CA2823D58A42 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A110FDD82B72BF6C0266B4C572C39BFD /* Pods_SenbayLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SenbayLive.framework; path = "Pods-SenbayLive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11EBD6715102A74B22D3295962FE1C0 /* Pods-SenbayLiveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SenbayLiveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3FC2A8B4268B8CA6692701673E70D05 /* RTMPStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPStream.swift; path = Sources/RTMP/RTMPStream.swift; sourceTree = "<group>"; };
+		A4A02BCEFA4BBCCDC14231CA2AD128F8 /* FLVAudioCodec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVAudioCodec.swift; path = Sources/FLV/FLVAudioCodec.swift; sourceTree = "<group>"; };
+		A5A7DEF485658A93D74C0FBDF46A7F79 /* HTTPService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPService.swift; path = Sources/HTTP/HTTPService.swift; sourceTree = "<group>"; };
+		A745A3FD47DC8EDB3825990A9F5C3B79 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		AA24D11392D0EC16BEF372E2A914847E /* RTMPBroadcaster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPBroadcaster.swift; path = SenbayKit/Classes/RTMP/RTMPBroadcaster.swift; sourceTree = "<group>"; };
+		ABA4F63E76849ABF368C124EF13F49AE /* SenbayData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayData.m; path = SenbayKit/Classes/Models/SenbayData.m; sourceTree = "<group>"; };
+		AD05E93CE0D59C8B4E3BD48DE225CBD4 /* Running.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Running.swift; path = Sources/Util/Running.swift; sourceTree = "<group>"; };
+		AD57A6356586FB90FC9A786C2BD6AA45 /* SenbayFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayFormat.h; path = SenbayKit/Classes/Models/SenbayFormat.h; sourceTree = "<group>"; };
+		AEC0F53CC25E4DA5BE570149C1EB13B0 /* SenbayKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SenbayKit-Info.plist"; sourceTree = "<group>"; };
+		AF80030325914D72038C1432F5C04906 /* IOComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IOComponent.swift; path = Sources/Media/IOComponent.swift; sourceTree = "<group>"; };
+		AFD7C41BC209A131EBD4AEC94D71477E /* CMSampleBuffer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CMSampleBuffer+Extension.swift"; path = "Sources/Extension/CMSampleBuffer+Extension.swift"; sourceTree = "<group>"; };
+		B1BF26841703B224DAFD41E7063FCAF9 /* Pods-SenbayLive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SenbayLive-dummy.m"; sourceTree = "<group>"; };
+		B27B83DF82C5F92CAAA5C96474B7AE1F /* NetSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetSocket.swift; path = Sources/Net/NetSocket.swift; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3C9A4B1C7C077B0A7B39B4FEB2997C8 /* Pods-SenbayLiveUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SenbayLiveUITests-umbrella.h"; sourceTree = "<group>"; };
+		B42B2F60770C655BDF5641EE85223237 /* AVMixer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVMixer.swift; path = Sources/Media/AVMixer.swift; sourceTree = "<group>"; };
+		B49FD33A9B5BEE10077939F4BA480472 /* DeviceUtil+Extenstion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DeviceUtil+Extenstion.swift"; path = "Platforms/iOS/DeviceUtil+Extenstion.swift"; sourceTree = "<group>"; };
+		B6481DBBBFF882E14B1A6050C8FE6D1F /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		B7936732925520A8B3CE77FAAD52DFDA /* Pods_SenbayLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SenbayLiveTests.framework; path = "Pods-SenbayLiveTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84CB3D5DD882D6C278A99A781A84D3A /* VisualEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisualEffect.swift; path = Sources/Media/VisualEffect.swift; sourceTree = "<group>"; };
+		BA0F29A63B099195FB0CDBFDE3A321AE /* Pods-SenbayLive-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SenbayLive-frameworks.sh"; sourceTree = "<group>"; };
+		BA13B2722F81F15C8309BEE0BE39AF17 /* ASClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASClass.swift; path = Sources/RTMP/ASClass.swift; sourceTree = "<group>"; };
+		BBA0D067472BF04FB5F1BB0A484715D7 /* Pods-SenbayLive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SenbayLive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC4659B30003BEE2E21A1074404D788E /* ExpressibleByIntegerLiteral+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ExpressibleByIntegerLiteral+Extension.swift"; path = "Sources/Extension/ExpressibleByIntegerLiteral+Extension.swift"; sourceTree = "<group>"; };
+		BD6712BC39F6BBEC29425AC38DAC4379 /* SenbayNetworkSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayNetworkSocket.m; path = SenbayKit/Classes/Sensors/SenbayNetworkSocket.m; sourceTree = "<group>"; };
+		BF42275453AF4E3A5016F9EFC5584A63 /* RTMPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPHandler.swift; path = SenbayKit/Classes/RTMP/RTMPHandler.swift; sourceTree = "<group>"; };
+		C02F50ADCF17ED32C8BD0CD5399CA07C /* SenbayLocalTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayLocalTag.m; path = SenbayKit/Classes/Sensors/SenbayLocalTag.m; sourceTree = "<group>"; };
+		C06A30C54A3763E236DEB0F40AE5168C /* Pods-SenbayLiveUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SenbayLiveUITests.modulemap"; sourceTree = "<group>"; };
+		C169CC458B67CD04EA5A901A746E72CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1ED5C71FB5B5C51280F146A698ED8E8 /* URL+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "Sources/Extension/URL+Extension.swift"; sourceTree = "<group>"; };
+		C21001EB2FFD225AA745C8798EEDD018 /* SenbaySensor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbaySensor.m; path = SenbayKit/Classes/Sensors/SenbaySensor.m; sourceTree = "<group>"; };
+		C24F07A471CA2F965BBC6607F90969AC /* RTMPStreamDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPStreamDelegate.swift; path = Sources/RTMP/RTMPStreamDelegate.swift; sourceTree = "<group>"; };
+		C2DD275DF143280AC75C59BD12E79538 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/Util/MD5.swift; sourceTree = "<group>"; };
+		C40B589A4962FA35D8D83E294F2F0259 /* Logboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logboard.modulemap; sourceTree = "<group>"; };
+		C483EDC1DCC8A46A563D1552556DC44C /* FLVTagType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVTagType.swift; path = Sources/FLV/FLVTagType.swift; sourceTree = "<group>"; };
+		C6DEEE5DA7A130931C12DE70776CC65C /* FLVFrameType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVFrameType.swift; path = Sources/FLV/FLVFrameType.swift; sourceTree = "<group>"; };
+		CA9C4DCCAB237FAA56F991A0EA7ED7E7 /* ByteArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ByteArray.swift; path = Sources/Util/ByteArray.swift; sourceTree = "<group>"; };
+		CE4708D814D66263EB03C9034C00D94B /* FLVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVReader.swift; path = Sources/FLV/FLVReader.swift; sourceTree = "<group>"; };
+		CEFD59A22DE5434287A60CDA18D29D60 /* SenbayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SenbayKit-prefix.pch"; sourceTree = "<group>"; };
+		CF1739A9AA191968791C3E640FF0036C /* Logboard.Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logboard.Data.swift; path = Sources/Logboard.Data.swift; sourceTree = "<group>"; };
+		D099AEDF9CADAE77240B219CC65F230E /* Pods-SenbayLiveUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLiveUITests-Info.plist"; sourceTree = "<group>"; };
+		D110159096680D9ED61823FBA4484526 /* Pods_SenbayLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SenbayLiveUITests.framework; path = "Pods-SenbayLiveUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21D0E0CD260D8C0B2D296389802DD12 /* HaishinKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HaishinKit.h; path = Platforms/iOS/HaishinKit.h; sourceTree = "<group>"; };
+		D29BB2D2CC3D89ABCC14FDA701B6077B /* Pods-SenbayLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SenbayLive.release.xcconfig"; sourceTree = "<group>"; };
+		D427C03D1AF1B14BE178334451011EFC /* Pods-SenbayLiveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SenbayLiveTests.modulemap"; sourceTree = "<group>"; };
+		D4D828D83EABE0971B8F8874AECDCFDC /* FLVAVCPacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVAVCPacketType.swift; path = Sources/FLV/FLVAVCPacketType.swift; sourceTree = "<group>"; };
+		D60A4ED70394E59293767DD05DF4FE74 /* SenbayBLEConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayBLEConnector.h; path = SenbayKit/Classes/SenbayBLEConnector.h; sourceTree = "<group>"; };
+		D82EC1B855898A69DB0CCFF0E45276C8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95345C82EE9C585747363E77C989844 /* SenbayData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayData.h; path = SenbayKit/Classes/Models/SenbayData.h; sourceTree = "<group>"; };
+		DBF2B4A71129DB44E49051C7201203CB /* AnyUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyUtil.swift; path = Sources/Util/AnyUtil.swift; sourceTree = "<group>"; };
+		DC7EBC11E7DEB6F803140B34FEFFB9E0 /* Pods-SenbayLive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SenbayLive-Info.plist"; sourceTree = "<group>"; };
+		DCA9395F8DA0CDDE0E1A2A6BB6B84F92 /* SenbayLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayLocation.m; path = SenbayKit/Classes/Sensors/SenbayLocation.m; sourceTree = "<group>"; };
+		DF06202ABB4903D7478A446352E3ADF8 /* RTMPTSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPTSocket.swift; path = Sources/RTMP/RTMPTSocket.swift; sourceTree = "<group>"; };
+		E1BF7D1E095B7F4CC35CF70781C0A109 /* H264Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = H264Decoder.swift; path = Sources/Codec/H264Decoder.swift; sourceTree = "<group>"; };
+		E276EEABD4DB7FF332CD0457FE62524A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		E3FA3C445EB05DAA1DCEE336FE08735F /* SenbayReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayReader.h; path = SenbayKit/Classes/SenbayReader.h; sourceTree = "<group>"; };
+		E517AE1CC9660E0BF85AF5267C7667CC /* SenbayOpenWeatherMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayOpenWeatherMap.m; path = SenbayKit/Classes/Sensors/SenbayOpenWeatherMap.m; sourceTree = "<group>"; };
+		E6E9A5977680ECED9763F27AC194EA6D /* SenbayCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayCamera.h; path = SenbayKit/Classes/SenbayCamera.h; sourceTree = "<group>"; };
+		E6EF9164ECBE2CC18EA1B06C3B0E40FF /* NALUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NALUnit.swift; path = Sources/ISO/NALUnit.swift; sourceTree = "<group>"; };
+		E7A815A531DAFF1E868F855E3977DD32 /* MP4Sampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MP4Sampler.swift; path = Sources/ISO/MP4Sampler.swift; sourceTree = "<group>"; };
+		E8F61BCEBD5175D7E98E494A08CD2EF4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		EAAB896F75554D9FEF4E212703F344D1 /* Logboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3ECF4BECBB38974D3F413DBA7DEA5F /* SenbayPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SenbayPlayer.h; path = SenbayKit/Classes/SenbayPlayer.h; sourceTree = "<group>"; };
+		EC992C01FC5040533BF05EA9F8D1F142 /* ProgramSpecific.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgramSpecific.swift; path = Sources/ISO/ProgramSpecific.swift; sourceTree = "<group>"; };
+		EF9C6EFCB57779EBEBAAE05EA75656B9 /* ConsoleAppender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleAppender.swift; path = Sources/ConsoleAppender.swift; sourceTree = "<group>"; };
+		EFCD370B100E33741DEE3358E5B509D6 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EBCB1AAC2F22766925FA9FACC1B068 /* BaseX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseX.h; path = SenbayKit/Classes/Utilities/BaseX.h; sourceTree = "<group>"; };
+		F159B6110C08D15ED5F83971BE2DC069 /* Pods-SenbayLiveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SenbayLiveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F184E4460D3B3DEC2552CA34E6AA4222 /* VideoIOComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoIOComponent.swift; path = Sources/Media/VideoIOComponent.swift; sourceTree = "<group>"; };
+		F1FB1FD2F851CE4C2C8187AA1695E066 /* AVMixerRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVMixerRecorder.swift; path = Sources/Media/AVMixerRecorder.swift; sourceTree = "<group>"; };
+		F23D6883E334DFBAA7818F75F72D22F4 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		F37EF2E59F9BED4BC8C158D1A8C5EF2D /* PacketizedElementaryStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PacketizedElementaryStream.swift; path = Sources/ISO/PacketizedElementaryStream.swift; sourceTree = "<group>"; };
+		F603E6F86C27A7F7222B6FE011AD64B0 /* Logboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logboard-umbrella.h"; sourceTree = "<group>"; };
+		F7755A0D1BD3F8529C83F7B8AC7BD0B7 /* VideoIOComponent+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "VideoIOComponent+Extension.swift"; path = "Platforms/iOS/VideoIOComponent+Extension.swift"; sourceTree = "<group>"; };
+		F8099F4AD84671BAC0562C38B444A2EE /* Logboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logboard.swift; path = Sources/Logboard.swift; sourceTree = "<group>"; };
+		FB9DCCC25F7525404F3A26609DB0E13C /* TimerDriver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerDriver.swift; path = Sources/Util/TimerDriver.swift; sourceTree = "<group>"; };
+		FDBA7800DA4B7E0FB15C72B290192C88 /* FLVSoundRate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLVSoundRate.swift; path = Sources/FLV/FLVSoundRate.swift; sourceTree = "<group>"; };
+		FE06B73F875FB00536C9B12E1E3CB597 /* SenbayScreenBrightness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SenbayScreenBrightness.m; path = SenbayKit/Classes/Sensors/SenbayScreenBrightness.m; sourceTree = "<group>"; };
+		FEC2A0EC0C7BE4E18C229AD954855C34 /* TransportStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransportStream.swift; path = Sources/ISO/TransportStream.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B17D2AA0C7CBA5E554C2707735974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD40E8FD9FDF1D07A4D5AB3F3496EBBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EDCCE02D9536A6E6AD00154B166BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736463C7BAEC936E2EFB4435AEB93DFA /* CFNetwork.framework in Frameworks */,
+				02CB9EDB7F6D7B1B6FA0119E732F5ADF /* Foundation.framework in Frameworks */,
+				09DCAE72CADB3D5CDAEE45447554D05C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BE470E1EC1BEB0E6663A210B654087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E71B42E92F85F53BF522DB40B57EBC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D94D891CDFBF2B610A9A655D92EE5A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BDF6E9B1152E24DDE0AA6245722EA5 /* Foundation.framework in Frameworks */,
+				60C37EBC83BB0D17AA3A7C77001C16D0 /* Logboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6497C9414086A9508E6C921DD53321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069F86B45D5EB87E8A768F7B2EA5CF5 /* AVFoundation.framework in Frameworks */,
+				681C5A09D9AA90FAB7B07E6C34284CC4 /* CocoaAsyncSocket.framework in Frameworks */,
+				89436CC8868927540098E18A2FEF4973 /* CoreBluetooth.framework in Frameworks */,
+				FB7CE4DF5EED9E43D8E863B9B717B4D0 /* CoreLocation.framework in Frameworks */,
+				BEEE9C76A044FB078CB1D429C3D156B1 /* CoreMotion.framework in Frameworks */,
+				91C911B8453731D5918390763C435070 /* Foundation.framework in Frameworks */,
+				CA6D9161E9BB13568825328E9BE6576F /* HaishinKit.framework in Frameworks */,
+				C9BF78D496386BD6E833591DE0368B8C /* OpenGLES.framework in Frameworks */,
+				827115FFD61168996737BC49B5DF3CD1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD372FFA52086FD1C09777EEFBADF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572CCE2B5FF79D2528E0A048AA76ABA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DEBB7DDDBBA9FCB92938F13537367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5622A117453C21310B1FE51069940037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10699AC5FFA1DB19A9E06A69F7A7615B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40B589A4962FA35D8D83E294F2F0259 /* Logboard.modulemap */,
+				838D958F3687F10A25B9C7458F58BC57 /* Logboard.xcconfig */,
+				26F7F2D8AA876F667FABADE0C4848453 /* Logboard-dummy.m */,
+				8F80BA571CF570BF6CFA3A8634B23190 /* Logboard-Info.plist */,
+				1AD45C0932E20076C3C58E74CEE0D366 /* Logboard-prefix.pch */,
+				F603E6F86C27A7F7222B6FE011AD64B0 /* Logboard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Logboard";
+			sourceTree = "<group>";
+		};
+		2547DCE9260C700450465DA4C1ECE59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82EC1B855898A69DB0CCFF0E45276C8 /* CocoaAsyncSocket.framework */,
+				7D3665D7BF494E11961E889EF7D5068F /* HaishinKit.framework */,
+				EAAB896F75554D9FEF4E212703F344D1 /* Logboard.framework */,
+				E2408F39FA4CCA1B4B483CF8CCD4784C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29CA6BA84AC894FB8E4B853A0D08FA15 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				0281F36D2753F3E8E8E876BD5C66941D /* GCDAsyncSocket.h */,
+				30C7B124241020FDC80C84065BFC9B37 /* GCDAsyncSocket.m */,
+				9FA801AADCE1FFAC0A14CA2823D58A42 /* GCDAsyncUdpSocket.h */,
+				704A6C190E0B06AAE30870A8DA08C957 /* GCDAsyncUdpSocket.m */,
+				C8108FFFE423DEA883B5B2FC4480476F /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		371AA018FEAB76881B94CE1A285DB01A /* Pods-SenbayLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D427C03D1AF1B14BE178334451011EFC /* Pods-SenbayLiveTests.modulemap */,
+				A11EBD6715102A74B22D3295962FE1C0 /* Pods-SenbayLiveTests-acknowledgements.markdown */,
+				80839282496F75195D31EFA6A92B3D39 /* Pods-SenbayLiveTests-acknowledgements.plist */,
+				2BD113B87E4A48DC931A68657C52BF85 /* Pods-SenbayLiveTests-dummy.m */,
+				86FE8F6E88C3483AC209EE6EB7C54D20 /* Pods-SenbayLiveTests-Info.plist */,
+				7CFFF9533344096790682CA8DFF3E47B /* Pods-SenbayLiveTests-umbrella.h */,
+				17C43C96CDE3BFD0BA86A9BBBB888215 /* Pods-SenbayLiveTests.debug.xcconfig */,
+				9B4D5E3433C4FC2059EA49E5C4D7CEC8 /* Pods-SenbayLiveTests.release.xcconfig */,
+			);
+			name = "Pods-SenbayLiveTests";
+			path = "Target Support Files/Pods-SenbayLiveTests";
+			sourceTree = "<group>";
+		};
+		38D05FE6354F026DF63F3C8F1D0E040B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29CA6BA84AC894FB8E4B853A0D08FA15 /* CocoaAsyncSocket */,
+				4DE3373606DC2772177C1B8753C3B5BD /* HaishinKit */,
+				70C1CD14A3C43652B9CB354DD3AFD043 /* Logboard */,
+				4C6D8E3B2CC63E53D09F63847CE83E92 /* SenbayKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C6D8E3B2CC63E53D09F63847CE83E92 /* SenbayKit */ = {
+			isa = PBXGroup;
+			children = (
+				F0EBCB1AAC2F22766925FA9FACC1B068 /* BaseX.h */,
+				813A61A43781FDF5E0F550EB4B1B09F4 /* BaseX.m */,
+				06201544EBC7F35B12C90FA6095A41D9 /* OpenWeatherModel.h */,
+				1276FCB2E6CBE90A4B4BF35FBEF4B80D /* OpenWeatherModel.m */,
+				6504F395893E6DE366558BC3116E0E6D /* ReservedKeys.h */,
+				916D8CD8CB83C78BAB9AE71A967D0ECB /* ReservedKeys.m */,
+				AA24D11392D0EC16BEF372E2A914847E /* RTMPBroadcaster.swift */,
+				BF42275453AF4E3A5016F9EFC5584A63 /* RTMPHandler.swift */,
+				152F9BBACC1D4358AE194B59798424C5 /* SenbayBattery.h */,
+				30FBBF0DC84B0775A0AEB6A04372005F /* SenbayBattery.m */,
+				521843579AB34621F1147F2D6872758A /* SenbayBLE.h */,
+				9E72CDA38EFF07D888C2C63A2A8A7816 /* SenbayBLE.m */,
+				D60A4ED70394E59293767DD05DF4FE74 /* SenbayBLEConnector.h */,
+				785F319AFC50B39CEB3D7B6A93A04640 /* SenbayBLEConnector.m */,
+				E6E9A5977680ECED9763F27AC194EA6D /* SenbayCamera.h */,
+				82C539846F527D31A79EB02DF56A9E7A /* SenbayCamera.m */,
+				386731A8A6FB89F928BC0DB5A2B98EB3 /* SenbayCameraConfig.h */,
+				9241AEAF1C4346611FCCB4C70624FC9D /* SenbayCameraConfig.m */,
+				D95345C82EE9C585747363E77C989844 /* SenbayData.h */,
+				ABA4F63E76849ABF368C124EF13F49AE /* SenbayData.m */,
+				AD57A6356586FB90FC9A786C2BD6AA45 /* SenbayFormat.h */,
+				146AB9C595B41ED748323550BBAE7CE8 /* SenbayFormat.m */,
+				3CD2C68D6097DE08CE9227A52AC48365 /* SenbayIMU.h */,
+				7E8F780B382CA008A60309B9D7B46BF1 /* SenbayIMU.m */,
+				40E7528F39199E981CBE909BAB0249DB /* SenbayLocalTag.h */,
+				C02F50ADCF17ED32C8BD0CD5399CA07C /* SenbayLocalTag.m */,
+				39207B1DD2C31A905BD4655363C79253 /* SenbayLocation.h */,
+				DCA9395F8DA0CDDE0E1A2A6BB6B84F92 /* SenbayLocation.m */,
+				5821776409585622176C2BB425AEE4F7 /* SenbayMotionActivity.h */,
+				8D86CEF310110D2B500697D89AD49375 /* SenbayMotionActivity.m */,
+				5F345B2211800502993D1820EF03651E /* SenbayNetworkSocket.h */,
+				BD6712BC39F6BBEC29425AC38DAC4379 /* SenbayNetworkSocket.m */,
+				067D9E912C83BFF46D757AE6EEAC82D4 /* SenbayOpenWeatherMap.h */,
+				E517AE1CC9660E0BF85AF5267C7667CC /* SenbayOpenWeatherMap.m */,
+				EB3ECF4BECBB38974D3F413DBA7DEA5F /* SenbayPlayer.h */,
+				62A4FB923290088C1870FA3687311B2D /* SenbayPlayer.m */,
+				3A1690B702575135F5CB5F16D4740673 /* SenbayQRcode.h */,
+				4B42949899162C71802E422E7B50C8D3 /* SenbayQRcode.m */,
+				E3FA3C445EB05DAA1DCEE336FE08735F /* SenbayReader.h */,
+				9B87288915ACC82A87B180E6B9B93394 /* SenbayReader.m */,
+				6D33EE26341DE0586F4B5D26F025A47A /* SenbayScreenBrightness.h */,
+				FE06B73F875FB00536C9B12E1E3CB597 /* SenbayScreenBrightness.m */,
+				03C54DBAEB9620EC4C5DA9B3A07266D4 /* SenbaySensor.h */,
+				C21001EB2FFD225AA745C8798EEDD018 /* SenbaySensor.m */,
+				47F28D21DE0E97E573932593CAFB2105 /* SenbaySensorManager.h */,
+				7D4430FD757F8C50B36E9DB7EF2D4078 /* SenbaySensorManager.m */,
+				AFEF908AEDA85ECB1C23CCEE82504133 /* Support Files */,
+			);
+			name = SenbayKit;
+			path = SenbayKit;
+			sourceTree = "<group>";
+		};
+		4DE3373606DC2772177C1B8753C3B5BD /* HaishinKit */ = {
+			isa = PBXGroup;
+			children = (
+				4FE935D288EAFFFD773F9214C86F779F /* AMF0Serializer.swift */,
+				214115B6D5813927ACA1302AAB71B794 /* AMF3Serializer.swift */,
+				DBF2B4A71129DB44E49051C7201203CB /* AnyUtil.swift */,
+				BA13B2722F81F15C8309BEE0BE39AF17 /* ASClass.swift */,
+				0A11AE34E95C2233613B6D7F2697FA44 /* Atomic.swift */,
+				21BE3D3765CFBFAC14B190DA5144AC5E /* AudioConverter.swift */,
+				943A560CFD2104EFC17BABCA152FBCE1 /* AudioIOComponent.swift */,
+				2B004B827211D5CADB7C6C82984A92C3 /* AudioSpecificConfig.swift */,
+				B42B2F60770C655BDF5641EE85223237 /* AVMixer.swift */,
+				F1FB1FD2F851CE4C2C8187AA1695E066 /* AVMixerRecorder.swift */,
+				CA9C4DCCAB237FAA56F991A0EA7ED7E7 /* ByteArray.swift */,
+				7B09D04938167BC611ED8310C12F2A5D /* CMAudioFormatDescription+Extension.swift */,
+				5FB7B6503C9333679BE7CA0B0D4025DD /* CMBlockBuffer+Extension.swift */,
+				0CE0D2AFBB268C0EA0FB609B5D688EFD /* CMFormatDescription+Extension.swift */,
+				AFD7C41BC209A131EBD4AEC94D71477E /* CMSampleBuffer+Extension.swift */,
+				74A131BA6D48FE36937A4C564C602C9D /* CMSampleTimingInfo+Extension.swift */,
+				533F6181C7CB7682B1402E9045321B82 /* CMVideoFormatDescription+Extension.swift */,
+				1C6B3C599E130B7CF5D3C0DA5A153117 /* Constants.swift */,
+				5C1D2FF8B8F1BB9DB8081647F86F1EA1 /* CRC32.swift */,
+				4FF67CB3E50175DAACF2290CE5DFE3BC /* CVPixelBuffer+Extension.swift */,
+				1B64C5A4951A48BF591539E699FBA370 /* Data+Extension.swift */,
+				8976F60239F8353FEA13ECC4F9532962 /* DataConvertible.swift */,
+				593D554A226DCAAD76414384049E789E /* DeviceUtil.swift */,
+				B49FD33A9B5BEE10077939F4BA480472 /* DeviceUtil+Extenstion.swift */,
+				928A714BC47BB8EFB731591CE2717A73 /* DisplayLinkedQueue.swift */,
+				634554E36B15D2BF95DC6F42FCEC4A11 /* EventDispatcher.swift */,
+				BC4659B30003BEE2E21A1074404D788E /* ExpressibleByIntegerLiteral+Extension.swift */,
+				2D70CF202195507234D46A20FDCC3822 /* FLVAACPacket.swift */,
+				A4A02BCEFA4BBCCDC14231CA2AD128F8 /* FLVAudioCodec.swift */,
+				D4D828D83EABE0971B8F8874AECDCFDC /* FLVAVCPacketType.swift */,
+				C6DEEE5DA7A130931C12DE70776CC65C /* FLVFrameType.swift */,
+				CE4708D814D66263EB03C9034C00D94B /* FLVReader.swift */,
+				FDBA7800DA4B7E0FB15C72B290192C88 /* FLVSoundRate.swift */,
+				7A5E40CCA326501EED0218C893C432AE /* FLVSoundSize.swift */,
+				21C5F6A869F0D428136FA3D61F65FDD0 /* FLVSoundType.swift */,
+				C483EDC1DCC8A46A563D1552556DC44C /* FLVTagType.swift */,
+				5DAB5AA42C3900917F0E3B5AA74FBB7A /* FLVVideoCodec.swift */,
+				85D8C0316117F9B70A7D134275657591 /* GLHKView.swift */,
+				227917EE95AE32A47087BE2A85036FFB /* H264+AVC.swift */,
+				E1BF7D1E095B7F4CC35CF70781C0A109 /* H264Decoder.swift */,
+				5821ADFDB8836CDBE3F72B97CDB0A9F8 /* H264Encoder.swift */,
+				D21D0E0CD260D8C0B2D296389802DD12 /* HaishinKit.h */,
+				445B8E23FAB397B21FC6E193EA713DD5 /* HKView.swift */,
+				4064CFAB888574BD2D1B30AF1133C2AE /* HTTPRequest.swift */,
+				5204F023D21B2EAD1B45B8CA5E892852 /* HTTPResponse.swift */,
+				A5A7DEF485658A93D74C0FBDF46A7F79 /* HTTPService.swift */,
+				15239DB56C4480E040620565B14465BA /* HTTPStream.swift */,
+				AF80030325914D72038C1432F5C04906 /* IOComponent.swift */,
+				6531231745BF2386F735616433DCFFAE /* M3U.swift */,
+				667BC01613906BFACDBBFFED03348C25 /* MachUtil.swift */,
+				C2DD275DF143280AC75C59BD12E79538 /* MD5.swift */,
+				59965283B5A5D080FB96BDDE652C4BF8 /* MIME.swift */,
+				8F3C30A67D43BA30EBDE03FCE82F06FE /* MP4Reader.swift */,
+				E7A815A531DAFF1E868F855E3977DD32 /* MP4Sampler.swift */,
+				250B5701EA6CE526BF4A02A063FEB7E3 /* MTHKView.swift */,
+				E6EF9164ECBE2CC18EA1B06C3B0E40FF /* NALUnit.swift */,
+				665D382E605BDE4C7FC17AA697C0492B /* NetClient.swift */,
+				01C2C0FB2DB54637969A2177104ED5D7 /* NetService.swift */,
+				B27B83DF82C5F92CAAA5C96474B7AE1F /* NetSocket.swift */,
+				047C3BE00C797AAF11BBC303159B1283 /* NetStream.swift */,
+				1482055969760522478163081C734072 /* NetStream+Extension.swift */,
+				F37EF2E59F9BED4BC8C158D1A8C5EF2D /* PacketizedElementaryStream.swift */,
+				EC992C01FC5040533BF05EA9F8D1F142 /* ProgramSpecific.swift */,
+				7D140564153EA9E501BA02E0BC79D45A /* RTMPChunk.swift */,
+				269EE2576D5B39637B91BAB1D62950E2 /* RTMPConnection.swift */,
+				206A345964102554FD2D4BF2D20F44A5 /* RTMPHandshake.swift */,
+				2F15DD55F04B0D5E8FA7714DED3BFD18 /* RTMPMessage.swift */,
+				54A1EBAF19CAB7CBE901E16930A1CB08 /* RTMPMuxer.swift */,
+				5B8ADE8DDD16DBC8A46B440698771995 /* RTMPSharedObject.swift */,
+				8EC72536C3150C8FC46AA9F8E61A7BC9 /* RTMPSocket.swift */,
+				A3FC2A8B4268B8CA6692701673E70D05 /* RTMPStream.swift */,
+				C24F07A471CA2F965BBC6607F90969AC /* RTMPStreamDelegate.swift */,
+				DF06202ABB4903D7478A446352E3ADF8 /* RTMPTSocket.swift */,
+				AD05E93CE0D59C8B4E3BD48DE225CBD4 /* Running.swift */,
+				012BB82645F93BDFCB18DAB3C9F70015 /* ScalingMode.swift */,
+				40A5F8A03EF5AC62F1717B7EFF6761BA /* ScreenCaptureSession.swift */,
+				910C49B9F586E1455FA9310B28E8093A /* SoundSpliter.swift */,
+				4653040B6E3F1EC7648DAF6D392FE845 /* SoundTransform.swift */,
+				FB9DCCC25F7525404F3A26609DB0E13C /* TimerDriver.swift */,
+				FEC2A0EC0C7BE4E18C229AD954855C34 /* TransportStream.swift */,
+				9F122CDCD42CAF7F5D54A62DA0D19483 /* TSReader.swift */,
+				757C5F0D526532DBC1DF36079B2C9EE3 /* TSWriter.swift */,
+				C1ED5C71FB5B5C51280F146A698ED8E8 /* URL+Extension.swift */,
+				53467CC30E73432726D97DBCC6522137 /* VideoGravityUtil.swift */,
+				F184E4460D3B3DEC2552CA34E6AA4222 /* VideoIOComponent.swift */,
+				F7755A0D1BD3F8529C83F7B8AC7BD0B7 /* VideoIOComponent+Extension.swift */,
+				B84CB3D5DD882D6C278A99A781A84D3A /* VisualEffect.swift */,
+				61B3CF7440120D8BE0A3EFFEA7BB7189 /* VTSession+Extension.swift */,
+				52EADE1D81876AE98909BE70CB043DF4 /* Support Files */,
+			);
+			name = HaishinKit;
+			path = HaishinKit;
+			sourceTree = "<group>";
+		};
+		52EADE1D81876AE98909BE70CB043DF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				941FBF18482452A923A85C8A5B14B630 /* HaishinKit.modulemap */,
+				428BE705E205B22337DD51C07917ECBB /* HaishinKit.xcconfig */,
+				57440A6322D63850C2D35AE63B358697 /* HaishinKit-dummy.m */,
+				740E0CFE3B175ECEB266C43F6AC2315C /* HaishinKit-Info.plist */,
+				926B3312BBE00A7B463994F954082003 /* HaishinKit-prefix.pch */,
+				60AFE158324FE0AFB2838955E56DE3D5 /* HaishinKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HaishinKit";
+			sourceTree = "<group>";
+		};
+		6264794464ED3A23B391AC19BC3C0C59 /* Pods-SenbayLive */ = {
+			isa = PBXGroup;
+			children = (
+				5FED30CCA82CCB784D2851AA8B98AC1A /* Pods-SenbayLive.modulemap */,
+				BBA0D067472BF04FB5F1BB0A484715D7 /* Pods-SenbayLive-acknowledgements.markdown */,
+				97CEC49BAC6C957353C8F5875EC9DDFF /* Pods-SenbayLive-acknowledgements.plist */,
+				B1BF26841703B224DAFD41E7063FCAF9 /* Pods-SenbayLive-dummy.m */,
+				BA0F29A63B099195FB0CDBFDE3A321AE /* Pods-SenbayLive-frameworks.sh */,
+				DC7EBC11E7DEB6F803140B34FEFFB9E0 /* Pods-SenbayLive-Info.plist */,
+				2B7BA4BC795CA021F62CC8F6EB080876 /* Pods-SenbayLive-umbrella.h */,
+				6CEB817A22CA4E78C1592901F73908DC /* Pods-SenbayLive.debug.xcconfig */,
+				D29BB2D2CC3D89ABCC14FDA701B6077B /* Pods-SenbayLive.release.xcconfig */,
+			);
+			name = "Pods-SenbayLive";
+			path = "Target Support Files/Pods-SenbayLive";
+			sourceTree = "<group>";
+		};
+		70C1CD14A3C43652B9CB354DD3AFD043 /* Logboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF9C6EFCB57779EBEBAAE05EA75656B9 /* ConsoleAppender.swift */,
+				490385911CA78ACD4582F1D8B27F383E /* Logboard.h */,
+				F8099F4AD84671BAC0562C38B444A2EE /* Logboard.swift */,
+				CF1739A9AA191968791C3E640FF0036C /* Logboard.Data.swift */,
+				7D0C2230BABBCB4596997783D6505CBE /* LogboardAppender.swift */,
+				7D1FE5EB2DA95D20992067C7F3B53BD9 /* MultiAppender.swift */,
+				33D33E14DCF1775BEE9DD442684E82C8 /* NullAppender.swift */,
+				7B0A38F45D8D242805E4133724B889CA /* SocketAppender.swift */,
+				10699AC5FFA1DB19A9E06A69F7A7615B /* Support Files */,
+			);
+			name = Logboard;
+			path = Logboard;
+			sourceTree = "<group>";
+		};
+		780BC0ED547B8BE860AA246D8ECC119A /* Pods-SenbayLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C06A30C54A3763E236DEB0F40AE5168C /* Pods-SenbayLiveUITests.modulemap */,
+				F159B6110C08D15ED5F83971BE2DC069 /* Pods-SenbayLiveUITests-acknowledgements.markdown */,
+				0B54EA9E2182749557B1511EAC51E254 /* Pods-SenbayLiveUITests-acknowledgements.plist */,
+				4056B557393B2209D17CF553D1F4620B /* Pods-SenbayLiveUITests-dummy.m */,
+				D099AEDF9CADAE77240B219CC65F230E /* Pods-SenbayLiveUITests-Info.plist */,
+				B3C9A4B1C7C077B0A7B39B4FEB2997C8 /* Pods-SenbayLiveUITests-umbrella.h */,
+				29F779ACD1AB50B555826EAC57F49DFD /* Pods-SenbayLiveUITests.debug.xcconfig */,
+				99EB81EBFF2DF0431AB1DDE145D5EF3B /* Pods-SenbayLiveUITests.release.xcconfig */,
+			);
+			name = "Pods-SenbayLiveUITests";
+			path = "Target Support Files/Pods-SenbayLiveUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				2547DCE9260C700450465DA4C1ECE59E /* Frameworks */,
+				38D05FE6354F026DF63F3C8F1D0E040B /* Pods */,
+				B02B0E676A3E124AA95F5FBF64FADF94 /* Products */,
+				85653BE1E85DDC3C4D5E10ED8CCF840B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85653BE1E85DDC3C4D5E10ED8CCF840B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6264794464ED3A23B391AC19BC3C0C59 /* Pods-SenbayLive */,
+				371AA018FEAB76881B94CE1A285DB01A /* Pods-SenbayLiveTests */,
+				780BC0ED547B8BE860AA246D8ECC119A /* Pods-SenbayLiveUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFEF908AEDA85ECB1C23CCEE82504133 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFDFE867A3B80959A9BEEC47E26F078 /* SenbayKit.modulemap */,
+				65750A25A2FC4BFFC7027D1F9A74A492 /* SenbayKit.xcconfig */,
+				9A89F2E8F93365482B999801C664093F /* SenbayKit-dummy.m */,
+				AEC0F53CC25E4DA5BE570149C1EB13B0 /* SenbayKit-Info.plist */,
+				CEFD59A22DE5434287A60CDA18D29D60 /* SenbayKit-prefix.pch */,
+				6A041BFBE3CCCECB2216A21872F2F49F /* SenbayKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SenbayKit";
+			sourceTree = "<group>";
+		};
+		B02B0E676A3E124AA95F5FBF64FADF94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCD370B100E33741DEE3358E5B509D6 /* CocoaAsyncSocket.framework */,
+				4418A550EAAD703368FA27D87A8E3F13 /* HaishinKit.framework */,
+				381435AA2AD27A5AC9FA5B2AFBAF5CF3 /* Logboard.framework */,
+				A110FDD82B72BF6C0266B4C572C39BFD /* Pods_SenbayLive.framework */,
+				B7936732925520A8B3CE77FAAD52DFDA /* Pods_SenbayLiveTests.framework */,
+				D110159096680D9ED61823FBA4484526 /* Pods_SenbayLiveUITests.framework */,
+				4506E6EC72843A450EEECEFFF8D590B4 /* SenbayKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8108FFFE423DEA883B5B2FC4480476F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				603D4E0D254E45C75B0E1BF1DF1A89E4 /* CocoaAsyncSocket.modulemap */,
+				A745A3FD47DC8EDB3825990A9F5C3B79 /* CocoaAsyncSocket.xcconfig */,
+				91FB79003AD81909B1E081BC8F163738 /* CocoaAsyncSocket-dummy.m */,
+				54120B63324D008036935E9BDF22F59D /* CocoaAsyncSocket-Info.plist */,
+				F23D6883E334DFBAA7818F75F72D22F4 /* CocoaAsyncSocket-prefix.pch */,
+				B6481DBBBFF882E14B1A6050C8FE6D1F /* CocoaAsyncSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		E2408F39FA4CCA1B4B483CF8CCD4784C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				10B34E251E32EA9E34E4CDA1C985A306 /* AVFoundation.framework */,
+				06CF499AFE8210E48435F3C877951F41 /* CFNetwork.framework */,
+				E276EEABD4DB7FF332CD0457FE62524A /* CoreBluetooth.framework */,
+				E8F61BCEBD5175D7E98E494A08CD2EF4 /* CoreLocation.framework */,
+				8B72D0C1098CE21124E31544D809B351 /* CoreMotion.framework */,
+				3C73816F4FEBA1B24D1153B055516ED4 /* Foundation.framework */,
+				38683A534752E01CB9D0F94DE6B89EB4 /* OpenGLES.framework */,
+				09EB68412374305171BBCCF9ECB3F91A /* Security.framework */,
+				C169CC458B67CD04EA5A901A746E72CE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1595C6AA6E98A30356006EA6648FBEBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDB96A2B5FE9F3695B31348DF922731 /* Pods-SenbayLive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31EAB3ABE5031C35A7203E82D23E901E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3DF503AA2A13D9DF579D3E0A9A4273 /* BaseX.h in Headers */,
+				1D01BDE83DF1F4C26D62205DD79218F8 /* OpenWeatherModel.h in Headers */,
+				CBD76B7507A2035CD9FA39A7D3F679C4 /* ReservedKeys.h in Headers */,
+				3BBD697380E8A9B20D644D294677588D /* SenbayBattery.h in Headers */,
+				FCDB5D8F43D43BF604DDAE0C9279DDD8 /* SenbayBLE.h in Headers */,
+				0E845A21BB36DAD2A162DC2CAD4FF7E6 /* SenbayBLEConnector.h in Headers */,
+				5BF546F63EABDECEFEF6C0C2CDD3CFF0 /* SenbayCamera.h in Headers */,
+				23E738A72AA6ADAF445BAD61774C4091 /* SenbayCameraConfig.h in Headers */,
+				EF8E2C5A0D6767F65DDA4D3EEC7D5F56 /* SenbayData.h in Headers */,
+				9FE3C8CEC4A067BC08078EADE1AFCC4D /* SenbayFormat.h in Headers */,
+				D9E46732BB7386AFB5E4CBF3346A624D /* SenbayIMU.h in Headers */,
+				AC4C59C4E7CDD63DB683A1716D03D335 /* SenbayKit-umbrella.h in Headers */,
+				1733A797A66136911AB22ABB1F9ED528 /* SenbayLocalTag.h in Headers */,
+				478B2EDC468AA4222E3D98E15715F549 /* SenbayLocation.h in Headers */,
+				0512F7594FB96CF629549485BEE834BC /* SenbayMotionActivity.h in Headers */,
+				F6D8857B3215B0BFB7222019668D406D /* SenbayNetworkSocket.h in Headers */,
+				C80B37F9E988D5A19E26E1671ABB386C /* SenbayOpenWeatherMap.h in Headers */,
+				41AAC4C2CA771CF6BB38417986F2C465 /* SenbayPlayer.h in Headers */,
+				168AEC502140BE41B34DE34C1378261C /* SenbayQRcode.h in Headers */,
+				8D95ACD2AE444B6116891D35C4821DEF /* SenbayReader.h in Headers */,
+				0970E6FE9B03060DB19BB8B093E26FF1 /* SenbayScreenBrightness.h in Headers */,
+				BDB78D62FF6A241A20F102EFFC1721BC /* SenbaySensor.h in Headers */,
+				212B10C309B2BDC3EAD53EF9AA2D798D /* SenbaySensorManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C06CD228CBC0D359B081C8CA230232B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAAEC1B337E1FB704FF7D1D8287055C /* HaishinKit-umbrella.h in Headers */,
+				3E9344BE7F48AFD01AE25D75C807FD33 /* HaishinKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60FBB097A95220765F105754B879E72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06B243CE5E55A579E8108C91910B511 /* Pods-SenbayLiveUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC51DFC622A2214BBAE4601488E84D27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5A12C04564E3636C762ED7479357A0 /* Pods-SenbayLiveTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5BD758EC28E0FD3E8BC2A2CB93A37B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276F082DA0A032AB6F2998B3A8E2FA96 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				84D92FC60D98C077AB3A6D56AEBE8FEB /* GCDAsyncSocket.h in Headers */,
+				946B8DE90A7C6B3872C82AA2AF240118 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE44F1A36A59FD134F9598E44E929DD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1B28DC3A69C2938C957E54CACC056A /* Logboard-umbrella.h in Headers */,
+				5B75AE543A6615E6B48566F18C8F7F6C /* Logboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		079D5C9FAA56FCF823381F5AAB6424A6 /* HaishinKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498704965A1AA3C38D6118B363274990 /* Build configuration list for PBXNativeTarget "HaishinKit" */;
+			buildPhases = (
+				9C06CD228CBC0D359B081C8CA230232B /* Headers */,
+				138642D63D8D07A1A2B4713114529D3E /* Sources */,
+				8D94D891CDFBF2B610A9A655D92EE5A5 /* Frameworks */,
+				F03897874519DAB806F5C61EBEA7574F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F66EDB19A40CCD7221AB83E5E35DA7 /* PBXTargetDependency */,
+			);
+			name = HaishinKit;
+			productName = HaishinKit;
+			productReference = 4418A550EAAD703368FA27D87A8E3F13 /* HaishinKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0F4EF882C42630428D203589AA25A30E /* Pods-SenbayLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9CDA3E818C82E4E164FBEB6F9B23A9 /* Build configuration list for PBXNativeTarget "Pods-SenbayLiveUITests" */;
+			buildPhases = (
+				E60FBB097A95220765F105754B879E72 /* Headers */,
+				47B20C4AE85DF3CCF4FC4032B018E5C5 /* Sources */,
+				78BE470E1EC1BEB0E6663A210B654087 /* Frameworks */,
+				A410D7995575E4A7C7C3014790119055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B32FD9BA4794F39E2D11F57643EC429 /* PBXTargetDependency */,
+			);
+			name = "Pods-SenbayLiveUITests";
+			productName = "Pods-SenbayLiveUITests";
+			productReference = D110159096680D9ED61823FBA4484526 /* Pods_SenbayLiveUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5C06B4AB487CFB7B4C4910E09396AB8 /* SenbayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE5BF2A1239335EAA7CB556640EDE2B /* Build configuration list for PBXNativeTarget "SenbayKit" */;
+			buildPhases = (
+				31EAB3ABE5031C35A7203E82D23E901E /* Headers */,
+				A03590F78B5131B8A98D483F45551D48 /* Sources */,
+				8F6497C9414086A9508E6C921DD53321 /* Frameworks */,
+				4DA752ADF922693CA33E15883F305363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B736FFE78BDD4FE770906AD5C191FD9D /* PBXTargetDependency */,
+				24EE5A9232FF1775544DB0C1F7CE44A2 /* PBXTargetDependency */,
+			);
+			name = SenbayKit;
+			productName = SenbayKit;
+			productReference = 4506E6EC72843A450EEECEFFF8D590B4 /* SenbayKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFF27C9D95DD41004B100262C28E8D7F /* Pods-SenbayLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D0A2CEF93022F30787B62C50C56049 /* Build configuration list for PBXNativeTarget "Pods-SenbayLive" */;
+			buildPhases = (
+				1595C6AA6E98A30356006EA6648FBEBB /* Headers */,
+				6B12FA94B27C08915F4B529DEFD4FEFF /* Sources */,
+				51B17D2AA0C7CBA5E554C2707735974C /* Frameworks */,
+				DD734A5C6DC61CA28BF95DBB6D35DDF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340CFDF82DECE92B21C6A659DEFFD769 /* PBXTargetDependency */,
+				89B36A44456A1DD39DE93F3499472319 /* PBXTargetDependency */,
+				407ECC2CB17773CCDAAE7A57E1DC4F33 /* PBXTargetDependency */,
+				DEEB0746415D8B23A125A5E91921F715 /* PBXTargetDependency */,
+			);
+			name = "Pods-SenbayLive";
+			productName = "Pods-SenbayLive";
+			productReference = A110FDD82B72BF6C0266B4C572C39BFD /* Pods_SenbayLive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7EEE819097BB72AF283B79C69215BAE /* Pods-SenbayLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA14E7801AC22B2768DD1D9542F02643 /* Build configuration list for PBXNativeTarget "Pods-SenbayLiveTests" */;
+			buildPhases = (
+				FC51DFC622A2214BBAE4601488E84D27 /* Headers */,
+				C495C7BBCF0CCB613FE827908D8D4C8F /* Sources */,
+				EB1DEBB7DDDBBA9FCB92938F13537367 /* Frameworks */,
+				C99C77AFEBFFD9E4B852D28FF15ED74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421F622B037C0CE7D8966670E345CB99 /* PBXTargetDependency */,
+			);
+			name = "Pods-SenbayLiveTests";
+			productName = "Pods-SenbayLiveTests";
+			productReference = B7936732925520A8B3CE77FAAD52DFDA /* Pods_SenbayLiveTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4B18BC646AD400FE52808E62839AB5 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD5BD758EC28E0FD3E8BC2A2CB93A37B /* Headers */,
+				B9D0B0602F04A8CCC471C2F11D11E027 /* Sources */,
+				73EDCCE02D9536A6E6AD00154B166BFD /* Frameworks */,
+				3337958E133C08BB64CFD881FEC29B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = EFCD370B100E33741DEE3358E5B509D6 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F39145C6FEDFF9C22FD7E2EACBC30CE2 /* Logboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1788B823AD6DA7FB73A6C62115614C54 /* Build configuration list for PBXNativeTarget "Logboard" */;
+			buildPhases = (
+				FE44F1A36A59FD134F9598E44E929DD6 /* Headers */,
+				B2D2FF369ED7738BACDF38D81EEE224F /* Sources */,
+				9BD372FFA52086FD1C09777EEFBADF01 /* Frameworks */,
+				6C541F722B1A5263DEB51D069A173334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logboard;
+			productName = Logboard;
+			productReference = 381435AA2AD27A5AC9FA5B2AFBAF5CF3 /* Logboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B02B0E676A3E124AA95F5FBF64FADF94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */,
+				079D5C9FAA56FCF823381F5AAB6424A6 /* HaishinKit */,
+				F39145C6FEDFF9C22FD7E2EACBC30CE2 /* Logboard */,
+				CFF27C9D95DD41004B100262C28E8D7F /* Pods-SenbayLive */,
+				E7EEE819097BB72AF283B79C69215BAE /* Pods-SenbayLiveTests */,
+				0F4EF882C42630428D203589AA25A30E /* Pods-SenbayLiveUITests */,
+				B5C06B4AB487CFB7B4C4910E09396AB8 /* SenbayKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3337958E133C08BB64CFD881FEC29B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA752ADF922693CA33E15883F305363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C541F722B1A5263DEB51D069A173334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A410D7995575E4A7C7C3014790119055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C77AFEBFFD9E4B852D28FF15ED74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD734A5C6DC61CA28BF95DBB6D35DDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03897874519DAB806F5C61EBEA7574F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138642D63D8D07A1A2B4713114529D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891282BA7373622432EB8886EEF13070 /* AMF0Serializer.swift in Sources */,
+				CD1EAF99040981A7002D7F1DA78035E2 /* AMF3Serializer.swift in Sources */,
+				29F942D1A0AC68771E4FAA43EC861CF5 /* AnyUtil.swift in Sources */,
+				AC30F7CFFD0CEBBCD112EE4068B5BF7E /* ASClass.swift in Sources */,
+				020609C74C7CC77C538F0F10BBAA1F9A /* Atomic.swift in Sources */,
+				93170E481CDBD7C54C6E9564E5888C3B /* AudioConverter.swift in Sources */,
+				29FE549B8940C66F1ABF767D548B63A2 /* AudioIOComponent.swift in Sources */,
+				AA8C550D7ABB225737AFC9E9B068F76A /* AudioSpecificConfig.swift in Sources */,
+				5007D288F4B6EA17C25E0602B8D5204A /* AVMixer.swift in Sources */,
+				88EC1C169E5C05608D3B0970BA03938A /* AVMixerRecorder.swift in Sources */,
+				23BB53657163B83061B7E1B91A2CFAEA /* ByteArray.swift in Sources */,
+				8EBC220D183F5176169791DFFB8C7D41 /* CMAudioFormatDescription+Extension.swift in Sources */,
+				890F4DAB3893F89DB494142F2D85DA79 /* CMBlockBuffer+Extension.swift in Sources */,
+				FDF0A69C9A6C8209272F0BEC35356168 /* CMFormatDescription+Extension.swift in Sources */,
+				5DFE219102C8B5953B8921336B1546EF /* CMSampleBuffer+Extension.swift in Sources */,
+				FC17F55C1E182E98B15E46EA9FFC11DB /* CMSampleTimingInfo+Extension.swift in Sources */,
+				3963691CB90E7EA703A21068276F0509 /* CMVideoFormatDescription+Extension.swift in Sources */,
+				516872A09C22EB6D22FBBFC86B0C112F /* Constants.swift in Sources */,
+				EA3927DE2984EA8CC679D1855E065118 /* CRC32.swift in Sources */,
+				220F033E230EAA301FE5502DA086C076 /* CVPixelBuffer+Extension.swift in Sources */,
+				F9F4D771597E4A1D8CFD69E30943B844 /* Data+Extension.swift in Sources */,
+				42843659F536A17808C9217B8DB8D18E /* DataConvertible.swift in Sources */,
+				8A72DE876D3FB8D2AA116E36BF9EEAEA /* DeviceUtil+Extenstion.swift in Sources */,
+				E101211D7655F3FECC1FD60CD27C7A8F /* DeviceUtil.swift in Sources */,
+				B8EB0B211B5913D73E745B15EC606E4B /* DisplayLinkedQueue.swift in Sources */,
+				C8286D88ADC147B688D0806F1F59A2B5 /* EventDispatcher.swift in Sources */,
+				4EE801919A1D40AAD56004A0157100DF /* ExpressibleByIntegerLiteral+Extension.swift in Sources */,
+				316E9D4B871568F909B7B9A4B8A95320 /* FLVAACPacket.swift in Sources */,
+				4D0E15C2CBA98EB2ADC186D0A72FBB59 /* FLVAudioCodec.swift in Sources */,
+				718E8A35FCA04171538BC2D5AF919C9A /* FLVAVCPacketType.swift in Sources */,
+				A3A1A6A7706EBEDDDEAB425E40D96072 /* FLVFrameType.swift in Sources */,
+				DB2E2C70427C13988C15D89A72AB2482 /* FLVReader.swift in Sources */,
+				7BA701234C099101F36FE4155D7497C4 /* FLVSoundRate.swift in Sources */,
+				52B0DE0471C07DB83FA030E38A778EF0 /* FLVSoundSize.swift in Sources */,
+				27844AF34A101463BB06349E28B3491C /* FLVSoundType.swift in Sources */,
+				A0AE10BCBFEAAFB8B05DBFB358B41795 /* FLVTagType.swift in Sources */,
+				D089BB9395773863FC5F364F1DDB3718 /* FLVVideoCodec.swift in Sources */,
+				ED2814B117C017C314B085C214CF744A /* GLHKView.swift in Sources */,
+				1F4A388E7246B6BD354CB4A003381EB0 /* H264+AVC.swift in Sources */,
+				1800BF0F05C24AC1EE1302E96F1936A3 /* H264Decoder.swift in Sources */,
+				4012C3425F5AE683F75BBCE68DC5408F /* H264Encoder.swift in Sources */,
+				5C313A47DFDD6832079D43F00E14767A /* HaishinKit-dummy.m in Sources */,
+				78862133DE21D3F961E2FD7F0E27FC1E /* HKView.swift in Sources */,
+				140F00B2A8A1B77D1F073834CE3CEF4B /* HTTPRequest.swift in Sources */,
+				7A432EDA262C1D3FF428377CBFD1A856 /* HTTPResponse.swift in Sources */,
+				E67FD04B2381868FC683AD7A95A0B5B3 /* HTTPService.swift in Sources */,
+				D492154BA9F3AAEBEED0438CD6FBB6E4 /* HTTPStream.swift in Sources */,
+				7DE4EBE26C0EDE5ED18852619B0BF8D6 /* IOComponent.swift in Sources */,
+				43AD8A488D9E1D040592B5DC54B52F37 /* M3U.swift in Sources */,
+				D23980AC1A3DB7E6268C9BD553B9903B /* MachUtil.swift in Sources */,
+				A4A09DA34D76E381BA90EF80E40A14B0 /* MD5.swift in Sources */,
+				04DE845904A07A351FB400D8DB1B2A64 /* MIME.swift in Sources */,
+				859BAC20F1A2342F8E7BC4D711BD1D64 /* MP4Reader.swift in Sources */,
+				9A504D1D16F8CDECC4B09A54D787A9C6 /* MP4Sampler.swift in Sources */,
+				E46A93F63D621D6D9ACF89F5A2EE8CD7 /* MTHKView.swift in Sources */,
+				C12AE692BA6DE84623EF256DB23C43DE /* NALUnit.swift in Sources */,
+				7C0B121B37DF694EC39949AC9BDB2FE0 /* NetClient.swift in Sources */,
+				525357751D52CC370AD715F89A6BF01D /* NetService.swift in Sources */,
+				02A342C52682E5A5F393BE5FC200FB71 /* NetSocket.swift in Sources */,
+				E352BC5A44DBCDF9A3CED52B115A825E /* NetStream+Extension.swift in Sources */,
+				0FE13012879B64E0F4506FD9F6468F88 /* NetStream.swift in Sources */,
+				9147E25C5845B3740211859895AD8392 /* PacketizedElementaryStream.swift in Sources */,
+				EFF97BBA705E32D8A2C0D71B8D20737B /* ProgramSpecific.swift in Sources */,
+				8733C17848A15C122592B50CD0F56EFA /* RTMPChunk.swift in Sources */,
+				140C02E4E7D03059B5F795FF8809FDE5 /* RTMPConnection.swift in Sources */,
+				31331A2A82522D798BB58E82F5F1E08E /* RTMPHandshake.swift in Sources */,
+				72D185D2A1830E836BB6939950A2B0F3 /* RTMPMessage.swift in Sources */,
+				A3A09D5DA5F35FCDDFA1E140C55A665A /* RTMPMuxer.swift in Sources */,
+				EB5D1E7A432D8DB9B629409945BE31CC /* RTMPSharedObject.swift in Sources */,
+				689369D0A797CB4A89E3ED37772B8E24 /* RTMPSocket.swift in Sources */,
+				A8DF9EB1A2247C8A2EA1A28C8A062B10 /* RTMPStream.swift in Sources */,
+				46CDC2EDE7B88DE558C56A9DF07896CB /* RTMPStreamDelegate.swift in Sources */,
+				F12413C09589362E8710357C54226588 /* RTMPTSocket.swift in Sources */,
+				E77057197866DCD65B7DB21A201A4E2A /* Running.swift in Sources */,
+				D5ED432E3E7DCDC8657413431298560A /* ScalingMode.swift in Sources */,
+				EE99A54239866DACA866E0C326387A5F /* ScreenCaptureSession.swift in Sources */,
+				2896D977C84B1F1344D9B802B5D55CB2 /* SoundSpliter.swift in Sources */,
+				DB45CB1103CBA642D82B3E4BAD421D56 /* SoundTransform.swift in Sources */,
+				5B1D5D3A10BA34824B2313F5BE9FBEB0 /* TimerDriver.swift in Sources */,
+				BF695CF001F2B97039FA9C83744BD6CD /* TransportStream.swift in Sources */,
+				688F2983E077BA384B3832567688E99B /* TSReader.swift in Sources */,
+				40D5383BB7092DB873762BF0DCC98C90 /* TSWriter.swift in Sources */,
+				F98375163FE7E51B9FD403CF95047DE2 /* URL+Extension.swift in Sources */,
+				B675B43AFBBA88308070B3606135DE90 /* VideoGravityUtil.swift in Sources */,
+				D27D245CDE6CF07706244496313733EC /* VideoIOComponent+Extension.swift in Sources */,
+				635CC75AF2B82F5C5B719274CED942D9 /* VideoIOComponent.swift in Sources */,
+				2AA940E251972BCFC8EE1E62B16C5992 /* VisualEffect.swift in Sources */,
+				D20682306B41F98A459CDA167E52164A /* VTSession+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B20C4AE85DF3CCF4FC4032B018E5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89787CD6258003D83B6C78239D497AB9 /* Pods-SenbayLiveUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B12FA94B27C08915F4B529DEFD4FEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DFE73E41B70AF1ABA5AAA7B782FAE1 /* Pods-SenbayLive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03590F78B5131B8A98D483F45551D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DD937CC8619111B901C8EBD932F80A /* BaseX.m in Sources */,
+				D7B6A98349F8FEC226344E4475FD54EC /* OpenWeatherModel.m in Sources */,
+				946F203558FD8983A91C260947A7EA63 /* ReservedKeys.m in Sources */,
+				574A922825402A6DDFE7171CB9DDEC46 /* RTMPBroadcaster.swift in Sources */,
+				A42006AC68107ED0D9A0E766FA38EEAD /* RTMPHandler.swift in Sources */,
+				A13C335B741BF76ED3D68EB0A9946240 /* SenbayBattery.m in Sources */,
+				58D25BB0C7F493D6E65A2973A06674F4 /* SenbayBLE.m in Sources */,
+				7084F712172D73E06F64BFC80BBCCAD5 /* SenbayBLEConnector.m in Sources */,
+				AF636157E41EA2C11EDF3236D51C2850 /* SenbayCamera.m in Sources */,
+				3EEB57257D97D05989F5E194699EE018 /* SenbayCameraConfig.m in Sources */,
+				3DA6965BBD53C5BFFF75592E6BA9E392 /* SenbayData.m in Sources */,
+				C98C348B0633EB40F2613F84B4E1A780 /* SenbayFormat.m in Sources */,
+				E7864E438D364E5EDCADD13CF6B4BBE1 /* SenbayIMU.m in Sources */,
+				BC1DE55CE265907F002B3C34C115DE52 /* SenbayKit-dummy.m in Sources */,
+				62AC28FC08253457E5F34AD19A0584AF /* SenbayLocalTag.m in Sources */,
+				BE1CFC73323006645E28C302A2C7AD1E /* SenbayLocation.m in Sources */,
+				8B904102B587D148D099A6D309CEA764 /* SenbayMotionActivity.m in Sources */,
+				E51DED10AC8A17F237ABBC7B1974A4CF /* SenbayNetworkSocket.m in Sources */,
+				14DDDEDDA4F0D3367316E499B3579873 /* SenbayOpenWeatherMap.m in Sources */,
+				25CF38C3B911ED422F0134A214BF9E63 /* SenbayPlayer.m in Sources */,
+				3EF99F73A18213810ADED1DD79481251 /* SenbayQRcode.m in Sources */,
+				C00956E6B3052A863513BD71A7DA0A39 /* SenbayReader.m in Sources */,
+				94314C5236852ECC497FAF51A85B1625 /* SenbayScreenBrightness.m in Sources */,
+				6FA8CDA6F01E820D01111CC16E48D788 /* SenbaySensor.m in Sources */,
+				B33796DA543A0EBEDD95E5F895D00BD5 /* SenbaySensorManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D2FF369ED7738BACDF38D81EEE224F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7EF46D7B7FF99011B0829D0B7D5C15 /* ConsoleAppender.swift in Sources */,
+				34216CC4B8B9CAB8D9B4B4149968544E /* Logboard-dummy.m in Sources */,
+				9F03D0FF647D7180518009A35980BF56 /* Logboard.Data.swift in Sources */,
+				9B3887A4095BAE56321569827228748B /* Logboard.swift in Sources */,
+				CC4791EB935FB9B22BB3DBEC0497959D /* LogboardAppender.swift in Sources */,
+				120DA0AAE99B8138B4309B7816EDEA14 /* MultiAppender.swift in Sources */,
+				AFEA4D64CFEBDA2F2CCA98734D191352 /* NullAppender.swift in Sources */,
+				B6DC8D384EC4A2F4476B30DA7FAAD301 /* SocketAppender.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D0B0602F04A8CCC471C2F11D11E027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB100FF9229539CA4094551779BF2BE /* CocoaAsyncSocket-dummy.m in Sources */,
+				AC166C66311BCAAAD1D9289A80E51CCF /* GCDAsyncSocket.m in Sources */,
+				30169A0026017D898DAC180CC3218F79 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C495C7BBCF0CCB613FE827908D8D4C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A96591F0F999F485CE3ED19CE28CFA6 /* Pods-SenbayLiveTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24EE5A9232FF1775544DB0C1F7CE44A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaishinKit;
+			target = 079D5C9FAA56FCF823381F5AAB6424A6 /* HaishinKit */;
+			targetProxy = 097F4C1F91C7585F1A5343635FF597E7 /* PBXContainerItemProxy */;
+		};
+		340CFDF82DECE92B21C6A659DEFFD769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */;
+			targetProxy = 373EFE2F15688DB07F5D199AE3EAD270 /* PBXContainerItemProxy */;
+		};
+		407ECC2CB17773CCDAAE7A57E1DC4F33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Logboard;
+			target = F39145C6FEDFF9C22FD7E2EACBC30CE2 /* Logboard */;
+			targetProxy = F085E5A51F5C64B63BF6CC149770A423 /* PBXContainerItemProxy */;
+		};
+		421F622B037C0CE7D8966670E345CB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SenbayLive";
+			target = CFF27C9D95DD41004B100262C28E8D7F /* Pods-SenbayLive */;
+			targetProxy = D7885534CE2343C59D9FEE541D12BDE7 /* PBXContainerItemProxy */;
+		};
+		69F66EDB19A40CCD7221AB83E5E35DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Logboard;
+			target = F39145C6FEDFF9C22FD7E2EACBC30CE2 /* Logboard */;
+			targetProxy = D1989F4C73697D0C9D09693670D02226 /* PBXContainerItemProxy */;
+		};
+		89B36A44456A1DD39DE93F3499472319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HaishinKit;
+			target = 079D5C9FAA56FCF823381F5AAB6424A6 /* HaishinKit */;
+			targetProxy = 3FB049C43F431408F4D2D3EED4575AF3 /* PBXContainerItemProxy */;
+		};
+		8B32FD9BA4794F39E2D11F57643EC429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SenbayLive";
+			target = CFF27C9D95DD41004B100262C28E8D7F /* Pods-SenbayLive */;
+			targetProxy = B2318A79C8BD98B223A2F8E3258AE098 /* PBXContainerItemProxy */;
+		};
+		B736FFE78BDD4FE770906AD5C191FD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = EB9F16A11CCB7B75DFD4C14783C83019 /* CocoaAsyncSocket */;
+			targetProxy = 63D927CA035C4F2F3C3E4981E04C5AF8 /* PBXContainerItemProxy */;
+		};
+		DEEB0746415D8B23A125A5E91921F715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SenbayKit;
+			target = B5C06B4AB487CFB7B4C4910E09396AB8 /* SenbayKit */;
+			targetProxy = 6DADD92964D8B7A741F92430F89ED631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D027BD8219E71225D197BACF78F7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE4FC293E2736455C215D7F2FE77026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29BB2D2CC3D89ABCC14FDA701B6077B /* Pods-SenbayLive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		357AC1B0A2E92D7B24DF7A83FC80A39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F779ACD1AB50B555826EAC57F49DFD /* Pods-SenbayLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D10D314F89D79D752CBACECE7407FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65750A25A2FC4BFFC7027D1F9A74A492 /* SenbayKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SenbayKit/SenbayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SenbayKit/SenbayKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SenbayKit/SenbayKit.modulemap";
+				PRODUCT_MODULE_NAME = SenbayKit;
+				PRODUCT_NAME = SenbayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53CCDB2C38C3CE7BE682DAA80B022487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EB81EBFF2DF0431AB1DDE145D5EF3B /* Pods-SenbayLiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59BDEBF8D21A1DD6E03BC4BB46EA4380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428BE705E205B22337DD51C07917ECBB /* HaishinKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HaishinKit/HaishinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaishinKit/HaishinKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HaishinKit/HaishinKit.modulemap";
+				PRODUCT_MODULE_NAME = HaishinKit;
+				PRODUCT_NAME = HaishinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A60F7DEB05411E16B59C75E5BCF8083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C43C96CDE3BFD0BA86A9BBBB888215 /* Pods-SenbayLiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6E10B0E449D2DB7E69C7CDE545E156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A745A3FD47DC8EDB3825990A9F5C3B79 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84575CB17434BC4AD8A8AE0B15D2D38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A745A3FD47DC8EDB3825990A9F5C3B79 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FB57296A2B59949708C2B492C4646D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A49F880640D879FB85FF595E114E67C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4D5E3433C4FC2059EA49E5C4D7CEC8 /* Pods-SenbayLiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA579887DB6305948A854461A1A11608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838D958F3687F10A25B9C7458F58BC57 /* Logboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Logboard/Logboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Logboard/Logboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Logboard/Logboard.modulemap";
+				PRODUCT_MODULE_NAME = Logboard;
+				PRODUCT_NAME = Logboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB13F82CBA213FFF8F2EFF8F014AF7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEB817A22CA4E78C1592901F73908DC /* Pods-SenbayLive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8211A93FE8617A179922FC89A5285FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428BE705E205B22337DD51C07917ECBB /* HaishinKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HaishinKit/HaishinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaishinKit/HaishinKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HaishinKit/HaishinKit.modulemap";
+				PRODUCT_MODULE_NAME = HaishinKit;
+				PRODUCT_NAME = HaishinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEA7F3952B18FCC6D8DEAF0E6A020578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838D958F3687F10A25B9C7458F58BC57 /* Logboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Logboard/Logboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Logboard/Logboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Logboard/Logboard.modulemap";
+				PRODUCT_MODULE_NAME = Logboard;
+				PRODUCT_NAME = Logboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FED806C86994A30CC7BCAA48FE46297D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65750A25A2FC4BFFC7027D1F9A74A492 /* SenbayKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SenbayKit/SenbayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SenbayKit/SenbayKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SenbayKit/SenbayKit.modulemap";
+				PRODUCT_MODULE_NAME = SenbayKit;
+				PRODUCT_NAME = SenbayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1788B823AD6DA7FB73A6C62115614C54 /* Build configuration list for PBXNativeTarget "Logboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA7F3952B18FCC6D8DEAF0E6A020578 /* Debug */,
+				CA579887DB6305948A854461A1A11608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9CDA3E818C82E4E164FBEB6F9B23A9 /* Build configuration list for PBXNativeTarget "Pods-SenbayLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357AC1B0A2E92D7B24DF7A83FC80A39E /* Debug */,
+				53CCDB2C38C3CE7BE682DAA80B022487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D027BD8219E71225D197BACF78F7C1 /* Debug */,
+				8FB57296A2B59949708C2B492C4646D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498704965A1AA3C38D6118B363274990 /* Build configuration list for PBXNativeTarget "HaishinKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BDEBF8D21A1DD6E03BC4BB46EA4380 /* Debug */,
+				D8211A93FE8617A179922FC89A5285FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE5BF2A1239335EAA7CB556640EDE2B /* Build configuration list for PBXNativeTarget "SenbayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D10D314F89D79D752CBACECE7407FA0 /* Debug */,
+				FED806C86994A30CC7BCAA48FE46297D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D0A2CEF93022F30787B62C50C56049 /* Build configuration list for PBXNativeTarget "Pods-SenbayLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB13F82CBA213FFF8F2EFF8F014AF7EB /* Debug */,
+				2DE4FC293E2736455C215D7F2FE77026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA14E7801AC22B2768DD1D9542F02643 /* Build configuration list for PBXNativeTarget "Pods-SenbayLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60F7DEB05411E16B59C75E5BCF8083 /* Debug */,
+				A49F880640D879FB85FF595E114E67C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4B18BC646AD400FE52808E62839AB5 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84575CB17434BC4AD8A8AE0B15D2D38F /* Debug */,
+				6C6E10B0E449D2DB7E69C7CDE545E156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

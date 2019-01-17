@@ -1,0 +1,6 @@
+framework module Pods_SenbayLive {
+  umbrella header "Pods-SenbayLive-umbrella.h"
+
+  export *
+  module * { export * }
+}

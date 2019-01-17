@@ -1,0 +1,6 @@
+framework module SenbayKit {
+  umbrella header "SenbayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

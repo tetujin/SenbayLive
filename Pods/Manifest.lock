@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - HaishinKit (0.10.5):
+    - Logboard (~> 2.0.0)
+  - Logboard (2.0.0)
+  - SenbayKit (0.2.1):
+    - CocoaAsyncSocket
+    - HaishinKit (~> 0.10.5)
+
+DEPENDENCIES:
+  - SenbayKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - HaishinKit
+    - Logboard
+    - SenbayKit
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  HaishinKit: 58cef9403c99373ea037bbb38f5c34c04972a37a
+  Logboard: 9e3dce26a4be2dbff7edf02d54b17ed5bd49217e
+  SenbayKit: e931b3450ee6b494e1d2bda25f38c2c67b6a1aa4
+
+PODFILE CHECKSUM: 511d3df52c47af17feb1225533ba10f948cbc669
+
+COCOAPODS: 1.6.0.beta.2

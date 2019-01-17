@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099BE4CFA075CDACE69DB47F /* Pods_SenbayLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0AAD1D7FBE0B502299B66C /* Pods_SenbayLiveTests.framework */; };
 		4F0F3D0D21EFDFD800B42A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F3D0C21EFDFD800B42A19 /* AppDelegate.swift */; };
 		4F0F3D0F21EFDFD800B42A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F3D0E21EFDFD800B42A19 /* ViewController.swift */; };
 		4F0F3D1221EFDFD800B42A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F3D1021EFDFD800B42A19 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		4F0F3D1A21EFDFDA00B42A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F3D1821EFDFDA00B42A19 /* LaunchScreen.storyboard */; };
 		4F0F3D2521EFDFDA00B42A19 /* SenbayLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F3D2421EFDFDA00B42A19 /* SenbayLiveTests.swift */; };
 		4F0F3D3021EFDFDA00B42A19 /* SenbayLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F3D2F21EFDFDA00B42A19 /* SenbayLiveUITests.swift */; };
+		4F0F3D3E21F0146300B42A19 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F3D3D21F0146300B42A19 /* SettingViewController.swift */; };
+		5C6B86D07142E9CDB0D464D7 /* Pods_SenbayLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D91FD1DB21F33AFFDBF05CB /* Pods_SenbayLive.framework */; };
+		921925C094A18239E7EC51C6 /* Pods_SenbayLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2A42F9783D96989A6F87F2 /* Pods_SenbayLiveUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036047138A3AF29C6971A0AB /* Pods-SenbayLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLiveUITests.release.xcconfig"; path = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F9F0AF6333CC7C8AF953494 /* Pods-SenbayLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-SenbayLiveUITests/Pods-SenbayLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D91FD1DB21F33AFFDBF05CB /* Pods_SenbayLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenbayLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F3D0921EFDFD800B42A19 /* SenbayLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenbayLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F3D0C21EFDFD800B42A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F0F3D0E21EFDFD800B42A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		4F0F3D2B21EFDFDA00B42A19 /* SenbayLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenbayLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F3D2F21EFDFDA00B42A19 /* SenbayLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenbayLiveUITests.swift; sourceTree = "<group>"; };
 		4F0F3D3121EFDFDA00B42A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F0F3D3D21F0146300B42A19 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5A24EAB46DA00508D463B719 /* Pods-SenbayLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C4D8202E354199102058D0 /* Pods-SenbayLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLive.release.xcconfig"; path = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive.release.xcconfig"; sourceTree = "<group>"; };
+		AD6F410DF9680A2F2C461DAE /* Pods-SenbayLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLive.debug.xcconfig"; path = "Target Support Files/Pods-SenbayLive/Pods-SenbayLive.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0AAD1D7FBE0B502299B66C /* Pods_SenbayLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenbayLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEE35D321A0265853E37E88 /* Pods-SenbayLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenbayLiveTests.release.xcconfig"; path = "Target Support Files/Pods-SenbayLiveTests/Pods-SenbayLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF2A42F9783D96989A6F87F2 /* Pods_SenbayLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenbayLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6B86D07142E9CDB0D464D7 /* Pods_SenbayLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099BE4CFA075CDACE69DB47F /* Pods_SenbayLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921925C094A18239E7EC51C6 /* Pods_SenbayLiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				4F0F3D2321EFDFDA00B42A19 /* SenbayLiveTests */,
 				4F0F3D2E21EFDFDA00B42A19 /* SenbayLiveUITests */,
 				4F0F3D0A21EFDFD800B42A19 /* Products */,
+				765295C823BEE2140BADE33E /* Pods */,
+				8802911C88CB193F5ED9AE9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,7 @@
 			children = (
 				4F0F3D0C21EFDFD800B42A19 /* AppDelegate.swift */,
 				4F0F3D0E21EFDFD800B42A19 /* ViewController.swift */,
+				4F0F3D3D21F0146300B42A19 /* SettingViewController.swift */,
 				4F0F3D1021EFDFD800B42A19 /* Main.storyboard */,
 				4F0F3D1621EFDFDA00B42A19 /* Assets.xcassets */,
 				4F0F3D1821EFDFDA00B42A19 /* LaunchScreen.storyboard */,
@@ -128,6 +148,29 @@
 			path = SenbayLiveUITests;
 			sourceTree = "<group>";
 		};
+		765295C823BEE2140BADE33E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F410DF9680A2F2C461DAE /* Pods-SenbayLive.debug.xcconfig */,
+				97C4D8202E354199102058D0 /* Pods-SenbayLive.release.xcconfig */,
+				5A24EAB46DA00508D463B719 /* Pods-SenbayLiveTests.debug.xcconfig */,
+				FBEE35D321A0265853E37E88 /* Pods-SenbayLiveTests.release.xcconfig */,
+				0F9F0AF6333CC7C8AF953494 /* Pods-SenbayLiveUITests.debug.xcconfig */,
+				036047138A3AF29C6971A0AB /* Pods-SenbayLiveUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8802911C88CB193F5ED9AE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D91FD1DB21F33AFFDBF05CB /* Pods_SenbayLive.framework */,
+				BD0AAD1D7FBE0B502299B66C /* Pods_SenbayLiveTests.framework */,
+				FF2A42F9783D96989A6F87F2 /* Pods_SenbayLiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F0F3D3421EFDFDA00B42A19 /* Build configuration list for PBXNativeTarget "SenbayLive" */;
 			buildPhases = (
+				3691BF6151D6CE879CBEEB29 /* [CP] Check Pods Manifest.lock */,
 				4F0F3D0521EFDFD800B42A19 /* Sources */,
 				4F0F3D0621EFDFD800B42A19 /* Frameworks */,
 				4F0F3D0721EFDFD800B42A19 /* Resources */,
+				CE46BDD16760532740E81F59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F0F3D3721EFDFDA00B42A19 /* Build configuration list for PBXNativeTarget "SenbayLiveTests" */;
 			buildPhases = (
+				C473062A316E750882A66769 /* [CP] Check Pods Manifest.lock */,
 				4F0F3D1C21EFDFDA00B42A19 /* Sources */,
 				4F0F3D1D21EFDFDA00B42A19 /* Frameworks */,
 				4F0F3D1E21EFDFDA00B42A19 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F0F3D3A21EFDFDA00B42A19 /* Build configuration list for PBXNativeTarget "SenbayLiveUITests" */;
 			buildPhases = (
+				1434F68EAE967FBDC2270B98 /* [CP] Check Pods Manifest.lock */,
 				4F0F3D2721EFDFDA00B42A19 /* Sources */,
 				4F0F3D2821EFDFDA00B42A19 /* Frameworks */,
 				4F0F3D2921EFDFDA00B42A19 /* Resources */,
@@ -254,6 +301,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1434F68EAE967FBDC2270B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenbayLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3691BF6151D6CE879CBEEB29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenbayLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C473062A316E750882A66769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenbayLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE46BDD16760532740E81F59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SenbayLive/Pods-SenbayLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/HaishinKit/HaishinKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Logboard/Logboard.framework",
+				"${BUILT_PRODUCTS_DIR}/SenbayKit/SenbayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HaishinKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SenbayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SenbayLive/Pods-SenbayLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F0F3D0521EFDFD800B42A19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +406,7 @@
 				4F0F3D0F21EFDFD800B42A19 /* ViewController.swift in Sources */,
 				4F0F3D0D21EFDFD800B42A19 /* AppDelegate.swift in Sources */,
 				4F0F3D1521EFDFD800B42A19 /* SenbayLive.xcdatamodeld in Sources */,
+				4F0F3D3E21F0146300B42A19 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +579,18 @@
 		};
 		4F0F3D3521EFDFDA00B42A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6F410DF9680A2F2C461DAE /* Pods-SenbayLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH352PYMNC;
 				INFOPLIST_FILE = SenbayLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.senbay.live.SenbayLive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.SenbayLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,16 +599,18 @@
 		};
 		4F0F3D3621EFDFDA00B42A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C4D8202E354199102058D0 /* Pods-SenbayLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH352PYMNC;
 				INFOPLIST_FILE = SenbayLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.senbay.live.SenbayLive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuukinishiyama.ios.SenbayLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +619,7 @@
 		};
 		4F0F3D3821EFDFDA00B42A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A24EAB46DA00508D463B719 /* Pods-SenbayLiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +641,7 @@
 		};
 		4F0F3D3921EFDFDA00B42A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEE35D321A0265853E37E88 /* Pods-SenbayLiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +663,7 @@
 		};
 		4F0F3D3B21EFDFDA00B42A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9F0AF6333CC7C8AF953494 /* Pods-SenbayLiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +684,7 @@
 		};
 		4F0F3D3C21EFDFDA00B42A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036047138A3AF29C6971A0AB /* Pods-SenbayLiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

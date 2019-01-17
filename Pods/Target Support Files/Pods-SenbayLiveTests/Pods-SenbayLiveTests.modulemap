@@ -1,0 +1,6 @@
+framework module Pods_SenbayLiveTests {
+  umbrella header "Pods-SenbayLiveTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
