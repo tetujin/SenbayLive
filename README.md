@@ -65,6 +65,10 @@ SenbayKit is authord by [Yuuki Nishiyama](http://www.yuukinishiyama.com). In add
 ## Related Links
 * [Senbay Platform Offical Website](http://www.senbay.info)
 * [Senbay YouTube Channel](https://www.youtube.com/channel/UCbnQUEc3KpE1M9auxwMh2dA/videos)
+* [SenbayKit-iOS](https://github.com/tetujin/SenbayKit)
+* [SenbayKit-macOS](https://github.com/tetujin/SenbayKit-macOS)
+* [SenbayKit-CLI](https://github.com/tetujin/SenbayKit-CLI)
+* [SenbayKit-Browser](https://github.com/tetujin/SenbayKit-Browser)
 
 ## Citation
 Please cite these papers in your publications if it helps your research:
